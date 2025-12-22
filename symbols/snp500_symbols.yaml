@@ -1,0 +1,2013 @@
+symbols:
+- code: MMM
+  currency: USD
+  exchange: NASDAQ
+  name: 3M
+- code: AOS
+  currency: USD
+  exchange: NASDAQ
+  name: A. O. Smith
+- code: ABT
+  currency: USD
+  exchange: NASDAQ
+  name: Abbott Laboratories
+- code: ABBV
+  currency: USD
+  exchange: NASDAQ
+  name: AbbVie
+- code: ACN
+  currency: USD
+  exchange: NASDAQ
+  name: Accenture
+- code: ADBE
+  currency: USD
+  exchange: NASDAQ
+  name: Adobe Inc.
+- code: AMD
+  currency: USD
+  exchange: NASDAQ
+  name: Advanced Micro Devices
+- code: AES
+  currency: USD
+  exchange: NASDAQ
+  name: AES Corporation
+- code: AFL
+  currency: USD
+  exchange: NASDAQ
+  name: Aflac
+- code: A
+  currency: USD
+  exchange: NASDAQ
+  name: Agilent Technologies
+- code: APD
+  currency: USD
+  exchange: NASDAQ
+  name: Air Products
+- code: ABNB
+  currency: USD
+  exchange: NASDAQ
+  name: Airbnb
+- code: AKAM
+  currency: USD
+  exchange: NASDAQ
+  name: Akamai Technologies
+- code: ALB
+  currency: USD
+  exchange: NASDAQ
+  name: Albemarle Corporation
+- code: ARE
+  currency: USD
+  exchange: NASDAQ
+  name: Alexandria Real Estate Equities
+- code: ALGN
+  currency: USD
+  exchange: NASDAQ
+  name: Align Technology
+- code: ALLE
+  currency: USD
+  exchange: NASDAQ
+  name: Allegion
+- code: LNT
+  currency: USD
+  exchange: NASDAQ
+  name: Alliant Energy
+- code: ALL
+  currency: USD
+  exchange: NASDAQ
+  name: Allstate
+- code: GOOGL
+  currency: USD
+  exchange: NASDAQ
+  name: Alphabet Inc. (Class A)
+- code: GOOG
+  currency: USD
+  exchange: NASDAQ
+  name: Alphabet Inc. (Class C)
+- code: MO
+  currency: USD
+  exchange: NASDAQ
+  name: Altria
+- code: AMZN
+  currency: USD
+  exchange: NASDAQ
+  name: Amazon
+- code: AMCR
+  currency: USD
+  exchange: NASDAQ
+  name: Amcor
+- code: AEE
+  currency: USD
+  exchange: NASDAQ
+  name: Ameren
+- code: AEP
+  currency: USD
+  exchange: NASDAQ
+  name: American Electric Power
+- code: AXP
+  currency: USD
+  exchange: NASDAQ
+  name: American Express
+- code: AIG
+  currency: USD
+  exchange: NASDAQ
+  name: American International Group
+- code: AMT
+  currency: USD
+  exchange: NASDAQ
+  name: American Tower
+- code: AWK
+  currency: USD
+  exchange: NASDAQ
+  name: American Water Works
+- code: AMP
+  currency: USD
+  exchange: NASDAQ
+  name: Ameriprise Financial
+- code: AME
+  currency: USD
+  exchange: NASDAQ
+  name: Ametek
+- code: AMGN
+  currency: USD
+  exchange: NASDAQ
+  name: Amgen
+- code: APH
+  currency: USD
+  exchange: NASDAQ
+  name: Amphenol
+- code: ADI
+  currency: USD
+  exchange: NASDAQ
+  name: Analog Devices
+- code: AON
+  currency: USD
+  exchange: NASDAQ
+  name: Aon plc
+- code: APA
+  currency: USD
+  exchange: NASDAQ
+  name: APA Corporation
+- code: APO
+  currency: USD
+  exchange: NASDAQ
+  name: Apollo Global Management
+- code: AAPL
+  currency: USD
+  exchange: NASDAQ
+  name: Apple Inc.
+- code: AMAT
+  currency: USD
+  exchange: NASDAQ
+  name: Applied Materials
+- code: APP
+  currency: USD
+  exchange: NASDAQ
+  name: AppLovin
+- code: APTV
+  currency: USD
+  exchange: NASDAQ
+  name: Aptiv
+- code: ACGL
+  currency: USD
+  exchange: NASDAQ
+  name: Arch Capital Group
+- code: ADM
+  currency: USD
+  exchange: NASDAQ
+  name: Archer Daniels Midland
+- code: ARES
+  currency: USD
+  exchange: NASDAQ
+  name: Ares Management
+- code: ANET
+  currency: USD
+  exchange: NASDAQ
+  name: Arista Networks
+- code: AJG
+  currency: USD
+  exchange: NASDAQ
+  name: Arthur J. Gallagher & Co.
+- code: AIZ
+  currency: USD
+  exchange: NASDAQ
+  name: Assurant
+- code: T
+  currency: USD
+  exchange: NASDAQ
+  name: AT&T
+- code: ATO
+  currency: USD
+  exchange: NASDAQ
+  name: Atmos Energy
+- code: ADSK
+  currency: USD
+  exchange: NASDAQ
+  name: Autodesk
+- code: ADP
+  currency: USD
+  exchange: NASDAQ
+  name: Automatic Data Processing
+- code: AZO
+  currency: USD
+  exchange: NASDAQ
+  name: AutoZone
+- code: AVB
+  currency: USD
+  exchange: NASDAQ
+  name: AvalonBay Communities
+- code: AVY
+  currency: USD
+  exchange: NASDAQ
+  name: Avery Dennison
+- code: AXON
+  currency: USD
+  exchange: NASDAQ
+  name: Axon Enterprise
+- code: BKR
+  currency: USD
+  exchange: NASDAQ
+  name: Baker Hughes
+- code: BALL
+  currency: USD
+  exchange: NASDAQ
+  name: Ball Corporation
+- code: BAC
+  currency: USD
+  exchange: NASDAQ
+  name: Bank of America
+- code: BAX
+  currency: USD
+  exchange: NASDAQ
+  name: Baxter International
+- code: BDX
+  currency: USD
+  exchange: NASDAQ
+  name: Becton Dickinson
+- code: BRK.B
+  currency: USD
+  exchange: NASDAQ
+  name: Berkshire Hathaway
+- code: BBY
+  currency: USD
+  exchange: NASDAQ
+  name: Best Buy
+- code: TECH
+  currency: USD
+  exchange: NASDAQ
+  name: Bio-Techne
+- code: BIIB
+  currency: USD
+  exchange: NASDAQ
+  name: Biogen
+- code: BLK
+  currency: USD
+  exchange: NASDAQ
+  name: BlackRock
+- code: BX
+  currency: USD
+  exchange: NASDAQ
+  name: Blackstone Inc.
+- code: XYZ
+  currency: USD
+  exchange: NASDAQ
+  name: Block, Inc.
+- code: BK
+  currency: USD
+  exchange: NASDAQ
+  name: BNY Mellon
+- code: BA
+  currency: USD
+  exchange: NASDAQ
+  name: Boeing
+- code: BKNG
+  currency: USD
+  exchange: NASDAQ
+  name: Booking Holdings
+- code: BSX
+  currency: USD
+  exchange: NASDAQ
+  name: Boston Scientific
+- code: BMY
+  currency: USD
+  exchange: NASDAQ
+  name: Bristol Myers Squibb
+- code: AVGO
+  currency: USD
+  exchange: NASDAQ
+  name: Broadcom
+- code: BR
+  currency: USD
+  exchange: NASDAQ
+  name: Broadridge Financial Solutions
+- code: BRO
+  currency: USD
+  exchange: NASDAQ
+  name: Brown & Brown
+- code: BF.B
+  currency: USD
+  exchange: NASDAQ
+  name: "Brown\xE2\x80\x93Forman"
+- code: BLDR
+  currency: USD
+  exchange: NASDAQ
+  name: Builders FirstSource
+- code: BG
+  currency: USD
+  exchange: NASDAQ
+  name: Bunge Global
+- code: BXP
+  currency: USD
+  exchange: NASDAQ
+  name: BXP, Inc.
+- code: CHRW
+  currency: USD
+  exchange: NASDAQ
+  name: C.H. Robinson
+- code: CDNS
+  currency: USD
+  exchange: NASDAQ
+  name: Cadence Design Systems
+- code: CPT
+  currency: USD
+  exchange: NASDAQ
+  name: Camden Property Trust
+- code: CPB
+  currency: USD
+  exchange: NASDAQ
+  name: Campbell's Company (The)
+- code: COF
+  currency: USD
+  exchange: NASDAQ
+  name: Capital One
+- code: CAH
+  currency: USD
+  exchange: NASDAQ
+  name: Cardinal Health
+- code: CCL
+  currency: USD
+  exchange: NASDAQ
+  name: Carnival
+- code: CARR
+  currency: USD
+  exchange: NASDAQ
+  name: Carrier Global
+- code: CAT
+  currency: USD
+  exchange: NASDAQ
+  name: Caterpillar Inc.
+- code: CBOE
+  currency: USD
+  exchange: NASDAQ
+  name: Cboe Global Markets
+- code: CBRE
+  currency: USD
+  exchange: NASDAQ
+  name: CBRE Group
+- code: CDW
+  currency: USD
+  exchange: NASDAQ
+  name: CDW Corporation
+- code: COR
+  currency: USD
+  exchange: NASDAQ
+  name: Cencora
+- code: CNC
+  currency: USD
+  exchange: NASDAQ
+  name: Centene Corporation
+- code: CNP
+  currency: USD
+  exchange: NASDAQ
+  name: CenterPoint Energy
+- code: CF
+  currency: USD
+  exchange: NASDAQ
+  name: CF Industries
+- code: CRL
+  currency: USD
+  exchange: NASDAQ
+  name: Charles River Laboratories
+- code: SCHW
+  currency: USD
+  exchange: NASDAQ
+  name: Charles Schwab Corporation
+- code: CHTR
+  currency: USD
+  exchange: NASDAQ
+  name: Charter Communications
+- code: CVX
+  currency: USD
+  exchange: NASDAQ
+  name: Chevron Corporation
+- code: CMG
+  currency: USD
+  exchange: NASDAQ
+  name: Chipotle Mexican Grill
+- code: CB
+  currency: USD
+  exchange: NASDAQ
+  name: Chubb Limited
+- code: CHD
+  currency: USD
+  exchange: NASDAQ
+  name: Church & Dwight
+- code: CI
+  currency: USD
+  exchange: NASDAQ
+  name: Cigna
+- code: CINF
+  currency: USD
+  exchange: NASDAQ
+  name: Cincinnati Financial
+- code: CTAS
+  currency: USD
+  exchange: NASDAQ
+  name: Cintas
+- code: CSCO
+  currency: USD
+  exchange: NASDAQ
+  name: Cisco
+- code: C
+  currency: USD
+  exchange: NASDAQ
+  name: Citigroup
+- code: CFG
+  currency: USD
+  exchange: NASDAQ
+  name: Citizens Financial Group
+- code: CLX
+  currency: USD
+  exchange: NASDAQ
+  name: Clorox
+- code: CME
+  currency: USD
+  exchange: NASDAQ
+  name: CME Group
+- code: CMS
+  currency: USD
+  exchange: NASDAQ
+  name: CMS Energy
+- code: KO
+  currency: USD
+  exchange: NASDAQ
+  name: Coca-Cola Company (The)
+- code: CTSH
+  currency: USD
+  exchange: NASDAQ
+  name: Cognizant
+- code: COIN
+  currency: USD
+  exchange: NASDAQ
+  name: Coinbase
+- code: CL
+  currency: USD
+  exchange: NASDAQ
+  name: Colgate-Palmolive
+- code: CMCSA
+  currency: USD
+  exchange: NASDAQ
+  name: Comcast
+- code: CAG
+  currency: USD
+  exchange: NASDAQ
+  name: Conagra Brands
+- code: COP
+  currency: USD
+  exchange: NASDAQ
+  name: ConocoPhillips
+- code: ED
+  currency: USD
+  exchange: NASDAQ
+  name: Consolidated Edison
+- code: STZ
+  currency: USD
+  exchange: NASDAQ
+  name: Constellation Brands
+- code: CEG
+  currency: USD
+  exchange: NASDAQ
+  name: Constellation Energy
+- code: COO
+  currency: USD
+  exchange: NASDAQ
+  name: Cooper Companies (The)
+- code: CPRT
+  currency: USD
+  exchange: NASDAQ
+  name: Copart
+- code: GLW
+  currency: USD
+  exchange: NASDAQ
+  name: Corning Inc.
+- code: CPAY
+  currency: USD
+  exchange: NASDAQ
+  name: Corpay
+- code: CTVA
+  currency: USD
+  exchange: NASDAQ
+  name: Corteva
+- code: CSGP
+  currency: USD
+  exchange: NASDAQ
+  name: CoStar Group
+- code: COST
+  currency: USD
+  exchange: NASDAQ
+  name: Costco
+- code: CTRA
+  currency: USD
+  exchange: NASDAQ
+  name: Coterra
+- code: CRWD
+  currency: USD
+  exchange: NASDAQ
+  name: CrowdStrike
+- code: CCI
+  currency: USD
+  exchange: NASDAQ
+  name: Crown Castle
+- code: CSX
+  currency: USD
+  exchange: NASDAQ
+  name: CSX Corporation
+- code: CMI
+  currency: USD
+  exchange: NASDAQ
+  name: Cummins
+- code: CVS
+  currency: USD
+  exchange: NASDAQ
+  name: CVS Health
+- code: DHR
+  currency: USD
+  exchange: NASDAQ
+  name: Danaher Corporation
+- code: DRI
+  currency: USD
+  exchange: NASDAQ
+  name: Darden Restaurants
+- code: DDOG
+  currency: USD
+  exchange: NASDAQ
+  name: Datadog
+- code: DVA
+  currency: USD
+  exchange: NASDAQ
+  name: DaVita
+- code: DAY
+  currency: USD
+  exchange: NASDAQ
+  name: Dayforce
+- code: DECK
+  currency: USD
+  exchange: NASDAQ
+  name: Deckers Brands
+- code: DE
+  currency: USD
+  exchange: NASDAQ
+  name: Deere & Company
+- code: DELL
+  currency: USD
+  exchange: NASDAQ
+  name: Dell Technologies
+- code: DAL
+  currency: USD
+  exchange: NASDAQ
+  name: Delta Air Lines
+- code: DVN
+  currency: USD
+  exchange: NASDAQ
+  name: Devon Energy
+- code: DXCM
+  currency: USD
+  exchange: NASDAQ
+  name: Dexcom
+- code: FANG
+  currency: USD
+  exchange: NASDAQ
+  name: Diamondback Energy
+- code: DLR
+  currency: USD
+  exchange: NASDAQ
+  name: Digital Realty
+- code: DG
+  currency: USD
+  exchange: NASDAQ
+  name: Dollar General
+- code: DLTR
+  currency: USD
+  exchange: NASDAQ
+  name: Dollar Tree
+- code: D
+  currency: USD
+  exchange: NASDAQ
+  name: Dominion Energy
+- code: DPZ
+  currency: USD
+  exchange: NASDAQ
+  name: Domino's
+- code: DASH
+  currency: USD
+  exchange: NASDAQ
+  name: DoorDash
+- code: DOV
+  currency: USD
+  exchange: NASDAQ
+  name: Dover Corporation
+- code: DOW
+  currency: USD
+  exchange: NASDAQ
+  name: Dow Inc.
+- code: DHI
+  currency: USD
+  exchange: NASDAQ
+  name: D. R. Horton
+- code: DTE
+  currency: USD
+  exchange: NASDAQ
+  name: DTE Energy
+- code: DUK
+  currency: USD
+  exchange: NASDAQ
+  name: Duke Energy
+- code: DD
+  currency: USD
+  exchange: NASDAQ
+  name: DuPont
+- code: ETN
+  currency: USD
+  exchange: NASDAQ
+  name: Eaton Corporation
+- code: EBAY
+  currency: USD
+  exchange: NASDAQ
+  name: eBay Inc.
+- code: ECL
+  currency: USD
+  exchange: NASDAQ
+  name: Ecolab
+- code: EIX
+  currency: USD
+  exchange: NASDAQ
+  name: Edison International
+- code: EW
+  currency: USD
+  exchange: NASDAQ
+  name: Edwards Lifesciences
+- code: EA
+  currency: USD
+  exchange: NASDAQ
+  name: Electronic Arts
+- code: ELV
+  currency: USD
+  exchange: NASDAQ
+  name: Elevance Health
+- code: EME
+  currency: USD
+  exchange: NASDAQ
+  name: Emcor
+- code: EMR
+  currency: USD
+  exchange: NASDAQ
+  name: Emerson Electric
+- code: ETR
+  currency: USD
+  exchange: NASDAQ
+  name: Entergy
+- code: EOG
+  currency: USD
+  exchange: NASDAQ
+  name: EOG Resources
+- code: EPAM
+  currency: USD
+  exchange: NASDAQ
+  name: EPAM Systems
+- code: EQT
+  currency: USD
+  exchange: NASDAQ
+  name: EQT Corporation
+- code: EFX
+  currency: USD
+  exchange: NASDAQ
+  name: Equifax
+- code: EQIX
+  currency: USD
+  exchange: NASDAQ
+  name: Equinix
+- code: EQR
+  currency: USD
+  exchange: NASDAQ
+  name: Equity Residential
+- code: ERIE
+  currency: USD
+  exchange: NASDAQ
+  name: Erie Indemnity
+- code: ESS
+  currency: USD
+  exchange: NASDAQ
+  name: Essex Property Trust
+- code: EL
+  currency: USD
+  exchange: NASDAQ
+  name: "Est\xC3\xA9e Lauder Companies (The)"
+- code: EG
+  currency: USD
+  exchange: NASDAQ
+  name: Everest Group
+- code: EVRG
+  currency: USD
+  exchange: NASDAQ
+  name: Evergy
+- code: ES
+  currency: USD
+  exchange: NASDAQ
+  name: Eversource Energy
+- code: EXC
+  currency: USD
+  exchange: NASDAQ
+  name: Exelon
+- code: EXE
+  currency: USD
+  exchange: NASDAQ
+  name: Expand Energy
+- code: EXPE
+  currency: USD
+  exchange: NASDAQ
+  name: Expedia Group
+- code: EXPD
+  currency: USD
+  exchange: NASDAQ
+  name: Expeditors International
+- code: EXR
+  currency: USD
+  exchange: NASDAQ
+  name: Extra Space Storage
+- code: XOM
+  currency: USD
+  exchange: NASDAQ
+  name: ExxonMobil
+- code: FFIV
+  currency: USD
+  exchange: NASDAQ
+  name: F5, Inc.
+- code: FDS
+  currency: USD
+  exchange: NASDAQ
+  name: FactSet
+- code: FICO
+  currency: USD
+  exchange: NASDAQ
+  name: Fair Isaac
+- code: FAST
+  currency: USD
+  exchange: NASDAQ
+  name: Fastenal
+- code: FRT
+  currency: USD
+  exchange: NASDAQ
+  name: Federal Realty Investment Trust
+- code: FDX
+  currency: USD
+  exchange: NASDAQ
+  name: FedEx
+- code: FIS
+  currency: USD
+  exchange: NASDAQ
+  name: Fidelity National Information Services
+- code: FITB
+  currency: USD
+  exchange: NASDAQ
+  name: Fifth Third Bancorp
+- code: FSLR
+  currency: USD
+  exchange: NASDAQ
+  name: First Solar
+- code: FE
+  currency: USD
+  exchange: NASDAQ
+  name: FirstEnergy
+- code: FISV
+  currency: USD
+  exchange: NASDAQ
+  name: Fiserv
+- code: F
+  currency: USD
+  exchange: NASDAQ
+  name: Ford Motor Company
+- code: FTNT
+  currency: USD
+  exchange: NASDAQ
+  name: Fortinet
+- code: FTV
+  currency: USD
+  exchange: NASDAQ
+  name: Fortive
+- code: FOXA
+  currency: USD
+  exchange: NASDAQ
+  name: Fox Corporation (Class A)
+- code: FOX
+  currency: USD
+  exchange: NASDAQ
+  name: Fox Corporation (Class B)
+- code: BEN
+  currency: USD
+  exchange: NASDAQ
+  name: Franklin Resources
+- code: FCX
+  currency: USD
+  exchange: NASDAQ
+  name: Freeport-McMoRan
+- code: GRMN
+  currency: USD
+  exchange: NASDAQ
+  name: Garmin
+- code: IT
+  currency: USD
+  exchange: NASDAQ
+  name: Gartner
+- code: GE
+  currency: USD
+  exchange: NASDAQ
+  name: GE Aerospace
+- code: GEHC
+  currency: USD
+  exchange: NASDAQ
+  name: GE HealthCare
+- code: GEV
+  currency: USD
+  exchange: NASDAQ
+  name: GE Vernova
+- code: GEN
+  currency: USD
+  exchange: NASDAQ
+  name: Gen Digital
+- code: GNRC
+  currency: USD
+  exchange: NASDAQ
+  name: Generac
+- code: GD
+  currency: USD
+  exchange: NASDAQ
+  name: General Dynamics
+- code: GIS
+  currency: USD
+  exchange: NASDAQ
+  name: General Mills
+- code: GM
+  currency: USD
+  exchange: NASDAQ
+  name: General Motors
+- code: GPC
+  currency: USD
+  exchange: NASDAQ
+  name: Genuine Parts Company
+- code: GILD
+  currency: USD
+  exchange: NASDAQ
+  name: Gilead Sciences
+- code: GPN
+  currency: USD
+  exchange: NASDAQ
+  name: Global Payments
+- code: GL
+  currency: USD
+  exchange: NASDAQ
+  name: Globe Life
+- code: GDDY
+  currency: USD
+  exchange: NASDAQ
+  name: GoDaddy
+- code: GS
+  currency: USD
+  exchange: NASDAQ
+  name: Goldman Sachs
+- code: HAL
+  currency: USD
+  exchange: NASDAQ
+  name: Halliburton
+- code: HIG
+  currency: USD
+  exchange: NASDAQ
+  name: Hartford (The)
+- code: HAS
+  currency: USD
+  exchange: NASDAQ
+  name: Hasbro
+- code: HCA
+  currency: USD
+  exchange: NASDAQ
+  name: HCA Healthcare
+- code: DOC
+  currency: USD
+  exchange: NASDAQ
+  name: Healthpeak Properties
+- code: HSIC
+  currency: USD
+  exchange: NASDAQ
+  name: Henry Schein
+- code: HSY
+  currency: USD
+  exchange: NASDAQ
+  name: Hershey Company (The)
+- code: HPE
+  currency: USD
+  exchange: NASDAQ
+  name: Hewlett Packard Enterprise
+- code: HLT
+  currency: USD
+  exchange: NASDAQ
+  name: Hilton Worldwide
+- code: HOLX
+  currency: USD
+  exchange: NASDAQ
+  name: Hologic
+- code: HD
+  currency: USD
+  exchange: NASDAQ
+  name: Home Depot (The)
+- code: HON
+  currency: USD
+  exchange: NASDAQ
+  name: Honeywell
+- code: HRL
+  currency: USD
+  exchange: NASDAQ
+  name: Hormel Foods
+- code: HST
+  currency: USD
+  exchange: NASDAQ
+  name: Host Hotels & Resorts
+- code: HWM
+  currency: USD
+  exchange: NASDAQ
+  name: Howmet Aerospace
+- code: HPQ
+  currency: USD
+  exchange: NASDAQ
+  name: HP Inc.
+- code: HUBB
+  currency: USD
+  exchange: NASDAQ
+  name: Hubbell Incorporated
+- code: HUM
+  currency: USD
+  exchange: NASDAQ
+  name: Humana
+- code: HBAN
+  currency: USD
+  exchange: NASDAQ
+  name: Huntington Bancshares
+- code: HII
+  currency: USD
+  exchange: NASDAQ
+  name: Huntington Ingalls Industries
+- code: IBM
+  currency: USD
+  exchange: NASDAQ
+  name: IBM
+- code: IEX
+  currency: USD
+  exchange: NASDAQ
+  name: IDEX Corporation
+- code: IDXX
+  currency: USD
+  exchange: NASDAQ
+  name: Idexx Laboratories
+- code: ITW
+  currency: USD
+  exchange: NASDAQ
+  name: Illinois Tool Works
+- code: INCY
+  currency: USD
+  exchange: NASDAQ
+  name: Incyte
+- code: IR
+  currency: USD
+  exchange: NASDAQ
+  name: Ingersoll Rand
+- code: PODD
+  currency: USD
+  exchange: NASDAQ
+  name: Insulet Corporation
+- code: INTC
+  currency: USD
+  exchange: NASDAQ
+  name: Intel
+- code: IBKR
+  currency: USD
+  exchange: NASDAQ
+  name: Interactive Brokers
+- code: ICE
+  currency: USD
+  exchange: NASDAQ
+  name: Intercontinental Exchange
+- code: IFF
+  currency: USD
+  exchange: NASDAQ
+  name: International Flavors & Fragrances
+- code: IP
+  currency: USD
+  exchange: NASDAQ
+  name: International Paper
+- code: INTU
+  currency: USD
+  exchange: NASDAQ
+  name: Intuit
+- code: ISRG
+  currency: USD
+  exchange: NASDAQ
+  name: Intuitive Surgical
+- code: IVZ
+  currency: USD
+  exchange: NASDAQ
+  name: Invesco
+- code: INVH
+  currency: USD
+  exchange: NASDAQ
+  name: Invitation Homes
+- code: IQV
+  currency: USD
+  exchange: NASDAQ
+  name: IQVIA
+- code: IRM
+  currency: USD
+  exchange: NASDAQ
+  name: Iron Mountain
+- code: JBHT
+  currency: USD
+  exchange: NASDAQ
+  name: J.B. Hunt
+- code: JBL
+  currency: USD
+  exchange: NASDAQ
+  name: Jabil
+- code: JKHY
+  currency: USD
+  exchange: NASDAQ
+  name: Jack Henry & Associates
+- code: J
+  currency: USD
+  exchange: NASDAQ
+  name: Jacobs Solutions
+- code: JNJ
+  currency: USD
+  exchange: NASDAQ
+  name: Johnson & Johnson
+- code: JCI
+  currency: USD
+  exchange: NASDAQ
+  name: Johnson Controls
+- code: JPM
+  currency: USD
+  exchange: NASDAQ
+  name: JPMorgan Chase
+- code: KVUE
+  currency: USD
+  exchange: NASDAQ
+  name: Kenvue
+- code: KDP
+  currency: USD
+  exchange: NASDAQ
+  name: Keurig Dr Pepper
+- code: KEY
+  currency: USD
+  exchange: NASDAQ
+  name: KeyCorp
+- code: KEYS
+  currency: USD
+  exchange: NASDAQ
+  name: Keysight Technologies
+- code: KMB
+  currency: USD
+  exchange: NASDAQ
+  name: Kimberly-Clark
+- code: KIM
+  currency: USD
+  exchange: NASDAQ
+  name: Kimco Realty
+- code: KMI
+  currency: USD
+  exchange: NASDAQ
+  name: Kinder Morgan
+- code: KKR
+  currency: USD
+  exchange: NASDAQ
+  name: KKR & Co.
+- code: KLAC
+  currency: USD
+  exchange: NASDAQ
+  name: KLA Corporation
+- code: KHC
+  currency: USD
+  exchange: NASDAQ
+  name: Kraft Heinz
+- code: KR
+  currency: USD
+  exchange: NASDAQ
+  name: Kroger
+- code: LHX
+  currency: USD
+  exchange: NASDAQ
+  name: L3Harris
+- code: LH
+  currency: USD
+  exchange: NASDAQ
+  name: Labcorp
+- code: LRCX
+  currency: USD
+  exchange: NASDAQ
+  name: Lam Research
+- code: LW
+  currency: USD
+  exchange: NASDAQ
+  name: Lamb Weston
+- code: LVS
+  currency: USD
+  exchange: NASDAQ
+  name: Las Vegas Sands
+- code: LDOS
+  currency: USD
+  exchange: NASDAQ
+  name: Leidos
+- code: LEN
+  currency: USD
+  exchange: NASDAQ
+  name: Lennar
+- code: LII
+  currency: USD
+  exchange: NASDAQ
+  name: Lennox International
+- code: LLY
+  currency: USD
+  exchange: NASDAQ
+  name: Lilly (Eli)
+- code: LIN
+  currency: USD
+  exchange: NASDAQ
+  name: Linde plc
+- code: LYV
+  currency: USD
+  exchange: NASDAQ
+  name: Live Nation Entertainment
+- code: LKQ
+  currency: USD
+  exchange: NASDAQ
+  name: LKQ Corporation
+- code: LMT
+  currency: USD
+  exchange: NASDAQ
+  name: Lockheed Martin
+- code: L
+  currency: USD
+  exchange: NASDAQ
+  name: Loews Corporation
+- code: LOW
+  currency: USD
+  exchange: NASDAQ
+  name: Lowe's
+- code: LULU
+  currency: USD
+  exchange: NASDAQ
+  name: Lululemon Athletica
+- code: LYB
+  currency: USD
+  exchange: NASDAQ
+  name: LyondellBasell
+- code: MTB
+  currency: USD
+  exchange: NASDAQ
+  name: M&T Bank
+- code: MPC
+  currency: USD
+  exchange: NASDAQ
+  name: Marathon Petroleum
+- code: MAR
+  currency: USD
+  exchange: NASDAQ
+  name: Marriott International
+- code: MMC
+  currency: USD
+  exchange: NASDAQ
+  name: Marsh McLennan
+- code: MLM
+  currency: USD
+  exchange: NASDAQ
+  name: Martin Marietta Materials
+- code: MAS
+  currency: USD
+  exchange: NASDAQ
+  name: Masco
+- code: MA
+  currency: USD
+  exchange: NASDAQ
+  name: Mastercard
+- code: MTCH
+  currency: USD
+  exchange: NASDAQ
+  name: Match Group
+- code: MKC
+  currency: USD
+  exchange: NASDAQ
+  name: McCormick & Company
+- code: MCD
+  currency: USD
+  exchange: NASDAQ
+  name: McDonald's
+- code: MCK
+  currency: USD
+  exchange: NASDAQ
+  name: McKesson Corporation
+- code: MDT
+  currency: USD
+  exchange: NASDAQ
+  name: Medtronic
+- code: MRK
+  currency: USD
+  exchange: NASDAQ
+  name: Merck & Co.
+- code: META
+  currency: USD
+  exchange: NASDAQ
+  name: Meta Platforms
+- code: MET
+  currency: USD
+  exchange: NASDAQ
+  name: MetLife
+- code: MTD
+  currency: USD
+  exchange: NASDAQ
+  name: Mettler Toledo
+- code: MGM
+  currency: USD
+  exchange: NASDAQ
+  name: MGM Resorts
+- code: MCHP
+  currency: USD
+  exchange: NASDAQ
+  name: Microchip Technology
+- code: MU
+  currency: USD
+  exchange: NASDAQ
+  name: Micron Technology
+- code: MSFT
+  currency: USD
+  exchange: NASDAQ
+  name: Microsoft
+- code: MAA
+  currency: USD
+  exchange: NASDAQ
+  name: Mid-America Apartment Communities
+- code: MRNA
+  currency: USD
+  exchange: NASDAQ
+  name: Moderna
+- code: MHK
+  currency: USD
+  exchange: NASDAQ
+  name: Mohawk Industries
+- code: MOH
+  currency: USD
+  exchange: NASDAQ
+  name: Molina Healthcare
+- code: TAP
+  currency: USD
+  exchange: NASDAQ
+  name: Molson Coors Beverage Company
+- code: MDLZ
+  currency: USD
+  exchange: NASDAQ
+  name: Mondelez International
+- code: MPWR
+  currency: USD
+  exchange: NASDAQ
+  name: Monolithic Power Systems
+- code: MNST
+  currency: USD
+  exchange: NASDAQ
+  name: Monster Beverage
+- code: MCO
+  currency: USD
+  exchange: NASDAQ
+  name: Moody's Corporation
+- code: MS
+  currency: USD
+  exchange: NASDAQ
+  name: Morgan Stanley
+- code: MOS
+  currency: USD
+  exchange: NASDAQ
+  name: Mosaic Company (The)
+- code: MSI
+  currency: USD
+  exchange: NASDAQ
+  name: Motorola Solutions
+- code: MSCI
+  currency: USD
+  exchange: NASDAQ
+  name: MSCI Inc.
+- code: NDAQ
+  currency: USD
+  exchange: NASDAQ
+  name: Nasdaq, Inc.
+- code: NTAP
+  currency: USD
+  exchange: NASDAQ
+  name: NetApp
+- code: NFLX
+  currency: USD
+  exchange: NASDAQ
+  name: Netflix
+- code: NEM
+  currency: USD
+  exchange: NASDAQ
+  name: Newmont
+- code: NWSA
+  currency: USD
+  exchange: NASDAQ
+  name: News Corp (Class A)
+- code: NWS
+  currency: USD
+  exchange: NASDAQ
+  name: News Corp (Class B)
+- code: NEE
+  currency: USD
+  exchange: NASDAQ
+  name: NextEra Energy
+- code: NKE
+  currency: USD
+  exchange: NASDAQ
+  name: Nike, Inc.
+- code: NI
+  currency: USD
+  exchange: NASDAQ
+  name: NiSource
+- code: NDSN
+  currency: USD
+  exchange: NASDAQ
+  name: Nordson Corporation
+- code: NSC
+  currency: USD
+  exchange: NASDAQ
+  name: Norfolk Southern
+- code: NTRS
+  currency: USD
+  exchange: NASDAQ
+  name: Northern Trust
+- code: NOC
+  currency: USD
+  exchange: NASDAQ
+  name: Northrop Grumman
+- code: NCLH
+  currency: USD
+  exchange: NASDAQ
+  name: Norwegian Cruise Line Holdings
+- code: NRG
+  currency: USD
+  exchange: NASDAQ
+  name: NRG Energy
+- code: NUE
+  currency: USD
+  exchange: NASDAQ
+  name: Nucor
+- code: NVDA
+  currency: USD
+  exchange: NASDAQ
+  name: Nvidia
+- code: NVR
+  currency: USD
+  exchange: NASDAQ
+  name: NVR, Inc.
+- code: NXPI
+  currency: USD
+  exchange: NASDAQ
+  name: NXP Semiconductors
+- code: ORLY
+  currency: USD
+  exchange: NASDAQ
+  name: "O\xE2\x80\x99Reilly Automotive"
+- code: OXY
+  currency: USD
+  exchange: NASDAQ
+  name: Occidental Petroleum
+- code: ODFL
+  currency: USD
+  exchange: NASDAQ
+  name: Old Dominion
+- code: OMC
+  currency: USD
+  exchange: NASDAQ
+  name: Omnicom Group
+- code: 'ON'
+  currency: USD
+  exchange: NASDAQ
+  name: ON Semiconductor
+- code: OKE
+  currency: USD
+  exchange: NASDAQ
+  name: Oneok
+- code: ORCL
+  currency: USD
+  exchange: NASDAQ
+  name: Oracle Corporation
+- code: OTIS
+  currency: USD
+  exchange: NASDAQ
+  name: Otis Worldwide
+- code: PCAR
+  currency: USD
+  exchange: NASDAQ
+  name: Paccar
+- code: PKG
+  currency: USD
+  exchange: NASDAQ
+  name: Packaging Corporation of America
+- code: PLTR
+  currency: USD
+  exchange: NASDAQ
+  name: Palantir Technologies
+- code: PANW
+  currency: USD
+  exchange: NASDAQ
+  name: Palo Alto Networks
+- code: PSKY
+  currency: USD
+  exchange: NASDAQ
+  name: Paramount Skydance Corporation
+- code: PH
+  currency: USD
+  exchange: NASDAQ
+  name: Parker Hannifin
+- code: PAYX
+  currency: USD
+  exchange: NASDAQ
+  name: Paychex
+- code: PAYC
+  currency: USD
+  exchange: NASDAQ
+  name: Paycom
+- code: PYPL
+  currency: USD
+  exchange: NASDAQ
+  name: PayPal
+- code: PNR
+  currency: USD
+  exchange: NASDAQ
+  name: Pentair
+- code: PEP
+  currency: USD
+  exchange: NASDAQ
+  name: PepsiCo
+- code: PFE
+  currency: USD
+  exchange: NASDAQ
+  name: Pfizer
+- code: PCG
+  currency: USD
+  exchange: NASDAQ
+  name: PG&E Corporation
+- code: PM
+  currency: USD
+  exchange: NASDAQ
+  name: Philip Morris International
+- code: PSX
+  currency: USD
+  exchange: NASDAQ
+  name: Phillips 66
+- code: PNW
+  currency: USD
+  exchange: NASDAQ
+  name: Pinnacle West Capital
+- code: PNC
+  currency: USD
+  exchange: NASDAQ
+  name: PNC Financial Services
+- code: POOL
+  currency: USD
+  exchange: NASDAQ
+  name: Pool Corporation
+- code: PPG
+  currency: USD
+  exchange: NASDAQ
+  name: PPG Industries
+- code: PPL
+  currency: USD
+  exchange: NASDAQ
+  name: PPL Corporation
+- code: PFG
+  currency: USD
+  exchange: NASDAQ
+  name: Principal Financial Group
+- code: PG
+  currency: USD
+  exchange: NASDAQ
+  name: Procter & Gamble
+- code: PGR
+  currency: USD
+  exchange: NASDAQ
+  name: Progressive Corporation
+- code: PLD
+  currency: USD
+  exchange: NASDAQ
+  name: Prologis
+- code: PRU
+  currency: USD
+  exchange: NASDAQ
+  name: Prudential Financial
+- code: PEG
+  currency: USD
+  exchange: NASDAQ
+  name: Public Service Enterprise Group
+- code: PTC
+  currency: USD
+  exchange: NASDAQ
+  name: PTC Inc.
+- code: PSA
+  currency: USD
+  exchange: NASDAQ
+  name: Public Storage
+- code: PHM
+  currency: USD
+  exchange: NASDAQ
+  name: PulteGroup
+- code: PWR
+  currency: USD
+  exchange: NASDAQ
+  name: Quanta Services
+- code: QCOM
+  currency: USD
+  exchange: NASDAQ
+  name: Qualcomm
+- code: DGX
+  currency: USD
+  exchange: NASDAQ
+  name: Quest Diagnostics
+- code: Q
+  currency: USD
+  exchange: NASDAQ
+  name: Qnity Electronics
+- code: RL
+  currency: USD
+  exchange: NASDAQ
+  name: Ralph Lauren Corporation
+- code: RJF
+  currency: USD
+  exchange: NASDAQ
+  name: Raymond James Financial
+- code: RTX
+  currency: USD
+  exchange: NASDAQ
+  name: RTX Corporation
+- code: O
+  currency: USD
+  exchange: NASDAQ
+  name: Realty Income
+- code: REG
+  currency: USD
+  exchange: NASDAQ
+  name: Regency Centers
+- code: REGN
+  currency: USD
+  exchange: NASDAQ
+  name: Regeneron Pharmaceuticals
+- code: RF
+  currency: USD
+  exchange: NASDAQ
+  name: Regions Financial Corporation
+- code: RSG
+  currency: USD
+  exchange: NASDAQ
+  name: Republic Services
+- code: RMD
+  currency: USD
+  exchange: NASDAQ
+  name: ResMed
+- code: RVTY
+  currency: USD
+  exchange: NASDAQ
+  name: Revvity
+- code: HOOD
+  currency: USD
+  exchange: NASDAQ
+  name: Robinhood Markets
+- code: ROK
+  currency: USD
+  exchange: NASDAQ
+  name: Rockwell Automation
+- code: ROL
+  currency: USD
+  exchange: NASDAQ
+  name: Rollins, Inc.
+- code: ROP
+  currency: USD
+  exchange: NASDAQ
+  name: Roper Technologies
+- code: ROST
+  currency: USD
+  exchange: NASDAQ
+  name: Ross Stores
+- code: RCL
+  currency: USD
+  exchange: NASDAQ
+  name: Royal Caribbean Group
+- code: SPGI
+  currency: USD
+  exchange: NASDAQ
+  name: S&P Global
+- code: CRM
+  currency: USD
+  exchange: NASDAQ
+  name: Salesforce
+- code: SNDK
+  currency: USD
+  exchange: NASDAQ
+  name: Sandisk
+- code: SBAC
+  currency: USD
+  exchange: NASDAQ
+  name: SBA Communications
+- code: SLB
+  currency: USD
+  exchange: NASDAQ
+  name: Schlumberger
+- code: STX
+  currency: USD
+  exchange: NASDAQ
+  name: Seagate Technology
+- code: SRE
+  currency: USD
+  exchange: NASDAQ
+  name: Sempra
+- code: NOW
+  currency: USD
+  exchange: NASDAQ
+  name: ServiceNow
+- code: SHW
+  currency: USD
+  exchange: NASDAQ
+  name: Sherwin-Williams
+- code: SPG
+  currency: USD
+  exchange: NASDAQ
+  name: Simon Property Group
+- code: SWKS
+  currency: USD
+  exchange: NASDAQ
+  name: Skyworks Solutions
+- code: SJM
+  currency: USD
+  exchange: NASDAQ
+  name: J.M. Smucker Company (The)
+- code: SW
+  currency: USD
+  exchange: NASDAQ
+  name: Smurfit Westrock
+- code: SNA
+  currency: USD
+  exchange: NASDAQ
+  name: Snap-on
+- code: SOLS
+  currency: USD
+  exchange: NASDAQ
+  name: Solstice Advanced Materials
+- code: SOLV
+  currency: USD
+  exchange: NASDAQ
+  name: Solventum
+- code: SO
+  currency: USD
+  exchange: NASDAQ
+  name: Southern Company
+- code: LUV
+  currency: USD
+  exchange: NASDAQ
+  name: Southwest Airlines
+- code: SWK
+  currency: USD
+  exchange: NASDAQ
+  name: Stanley Black & Decker
+- code: SBUX
+  currency: USD
+  exchange: NASDAQ
+  name: Starbucks
+- code: STT
+  currency: USD
+  exchange: NASDAQ
+  name: State Street Corporation
+- code: STLD
+  currency: USD
+  exchange: NASDAQ
+  name: Steel Dynamics
+- code: STE
+  currency: USD
+  exchange: NASDAQ
+  name: Steris
+- code: SYK
+  currency: USD
+  exchange: NASDAQ
+  name: Stryker Corporation
+- code: SMCI
+  currency: USD
+  exchange: NASDAQ
+  name: Supermicro
+- code: SYF
+  currency: USD
+  exchange: NASDAQ
+  name: Synchrony Financial
+- code: SNPS
+  currency: USD
+  exchange: NASDAQ
+  name: Synopsys
+- code: SYY
+  currency: USD
+  exchange: NASDAQ
+  name: Sysco
+- code: TMUS
+  currency: USD
+  exchange: NASDAQ
+  name: T-Mobile US
+- code: TROW
+  currency: USD
+  exchange: NASDAQ
+  name: T. Rowe Price
+- code: TTWO
+  currency: USD
+  exchange: NASDAQ
+  name: Take-Two Interactive
+- code: TPR
+  currency: USD
+  exchange: NASDAQ
+  name: Tapestry, Inc.
+- code: TRGP
+  currency: USD
+  exchange: NASDAQ
+  name: Targa Resources
+- code: TGT
+  currency: USD
+  exchange: NASDAQ
+  name: Target Corporation
+- code: TEL
+  currency: USD
+  exchange: NASDAQ
+  name: TE Connectivity
+- code: TDY
+  currency: USD
+  exchange: NASDAQ
+  name: Teledyne Technologies
+- code: TER
+  currency: USD
+  exchange: NASDAQ
+  name: Teradyne
+- code: TSLA
+  currency: USD
+  exchange: NASDAQ
+  name: Tesla, Inc.
+- code: TXN
+  currency: USD
+  exchange: NASDAQ
+  name: Texas Instruments
+- code: TPL
+  currency: USD
+  exchange: NASDAQ
+  name: Texas Pacific Land Corporation
+- code: TXT
+  currency: USD
+  exchange: NASDAQ
+  name: Textron
+- code: TMO
+  currency: USD
+  exchange: NASDAQ
+  name: Thermo Fisher Scientific
+- code: TJX
+  currency: USD
+  exchange: NASDAQ
+  name: TJX Companies
+- code: TKO
+  currency: USD
+  exchange: NASDAQ
+  name: TKO Group Holdings
+- code: TTD
+  currency: USD
+  exchange: NASDAQ
+  name: Trade Desk (The)
+- code: TSCO
+  currency: USD
+  exchange: NASDAQ
+  name: Tractor Supply
+- code: TT
+  currency: USD
+  exchange: NASDAQ
+  name: Trane Technologies
+- code: TDG
+  currency: USD
+  exchange: NASDAQ
+  name: TransDigm Group
+- code: TRV
+  currency: USD
+  exchange: NASDAQ
+  name: Travelers Companies (The)
+- code: TRMB
+  currency: USD
+  exchange: NASDAQ
+  name: Trimble Inc.
+- code: TFC
+  currency: USD
+  exchange: NASDAQ
+  name: Truist Financial
+- code: TYL
+  currency: USD
+  exchange: NASDAQ
+  name: Tyler Technologies
+- code: TSN
+  currency: USD
+  exchange: NASDAQ
+  name: Tyson Foods
+- code: USB
+  currency: USD
+  exchange: NASDAQ
+  name: U.S. Bancorp
+- code: UBER
+  currency: USD
+  exchange: NASDAQ
+  name: Uber
+- code: UDR
+  currency: USD
+  exchange: NASDAQ
+  name: UDR, Inc.
+- code: ULTA
+  currency: USD
+  exchange: NASDAQ
+  name: Ulta Beauty
+- code: UNP
+  currency: USD
+  exchange: NASDAQ
+  name: Union Pacific Corporation
+- code: UAL
+  currency: USD
+  exchange: NASDAQ
+  name: United Airlines Holdings
+- code: UPS
+  currency: USD
+  exchange: NASDAQ
+  name: United Parcel Service
+- code: URI
+  currency: USD
+  exchange: NASDAQ
+  name: United Rentals
+- code: UNH
+  currency: USD
+  exchange: NASDAQ
+  name: UnitedHealth Group
+- code: UHS
+  currency: USD
+  exchange: NASDAQ
+  name: Universal Health Services
+- code: VLO
+  currency: USD
+  exchange: NASDAQ
+  name: Valero Energy
+- code: VTR
+  currency: USD
+  exchange: NASDAQ
+  name: Ventas
+- code: VLTO
+  currency: USD
+  exchange: NASDAQ
+  name: Veralto
+- code: VRSN
+  currency: USD
+  exchange: NASDAQ
+  name: Verisign
+- code: VRSK
+  currency: USD
+  exchange: NASDAQ
+  name: Verisk Analytics
+- code: VZ
+  currency: USD
+  exchange: NASDAQ
+  name: Verizon
+- code: VRTX
+  currency: USD
+  exchange: NASDAQ
+  name: Vertex Pharmaceuticals
+- code: VTRS
+  currency: USD
+  exchange: NASDAQ
+  name: Viatris
+- code: VICI
+  currency: USD
+  exchange: NASDAQ
+  name: Vici Properties
+- code: V
+  currency: USD
+  exchange: NASDAQ
+  name: Visa Inc.
+- code: VST
+  currency: USD
+  exchange: NASDAQ
+  name: Vistra Corp.
+- code: VMC
+  currency: USD
+  exchange: NASDAQ
+  name: Vulcan Materials Company
+- code: WRB
+  currency: USD
+  exchange: NASDAQ
+  name: W. R. Berkley Corporation
+- code: GWW
+  currency: USD
+  exchange: NASDAQ
+  name: W. W. Grainger
+- code: WAB
+  currency: USD
+  exchange: NASDAQ
+  name: Wabtec
+- code: WMT
+  currency: USD
+  exchange: NASDAQ
+  name: Walmart
+- code: DIS
+  currency: USD
+  exchange: NASDAQ
+  name: Walt Disney Company (The)
+- code: WBD
+  currency: USD
+  exchange: NASDAQ
+  name: Warner Bros. Discovery
+- code: WM
+  currency: USD
+  exchange: NASDAQ
+  name: Waste Management
+- code: WAT
+  currency: USD
+  exchange: NASDAQ
+  name: Waters Corporation
+- code: WEC
+  currency: USD
+  exchange: NASDAQ
+  name: WEC Energy Group
+- code: WFC
+  currency: USD
+  exchange: NASDAQ
+  name: Wells Fargo
+- code: WELL
+  currency: USD
+  exchange: NASDAQ
+  name: Welltower
+- code: WST
+  currency: USD
+  exchange: NASDAQ
+  name: West Pharmaceutical Services
+- code: WDC
+  currency: USD
+  exchange: NASDAQ
+  name: Western Digital
+- code: WY
+  currency: USD
+  exchange: NASDAQ
+  name: Weyerhaeuser
+- code: WSM
+  currency: USD
+  exchange: NASDAQ
+  name: Williams-Sonoma, Inc.
+- code: WMB
+  currency: USD
+  exchange: NASDAQ
+  name: Williams Companies
+- code: WTW
+  currency: USD
+  exchange: NASDAQ
+  name: Willis Towers Watson
+- code: WDAY
+  currency: USD
+  exchange: NASDAQ
+  name: Workday, Inc.
+- code: WYNN
+  currency: USD
+  exchange: NASDAQ
+  name: Wynn Resorts
+- code: XEL
+  currency: USD
+  exchange: NASDAQ
+  name: Xcel Energy
+- code: XYL
+  currency: USD
+  exchange: NASDAQ
+  name: Xylem Inc.
+- code: YUM
+  currency: USD
+  exchange: NASDAQ
+  name: Yum! Brands
+- code: ZBRA
+  currency: USD
+  exchange: NASDAQ
+  name: Zebra Technologies
+- code: ZBH
+  currency: USD
+  exchange: NASDAQ
+  name: Zimmer Biomet
+- code: ZTS
+  currency: USD
+  exchange: NASDAQ
+  name: Zoetis

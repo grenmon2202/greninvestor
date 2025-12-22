@@ -1,0 +1,2001 @@
+symbols:
+- code: 360ONE.NS
+  currency: INR
+  exchange: NSE
+  name: 360 ONE WAM Ltd.
+- code: 3MINDIA.NS
+  currency: INR
+  exchange: NSE
+  name: 3M India Ltd.
+- code: ABB.NS
+  currency: INR
+  exchange: NSE
+  name: ABB India Ltd.
+- code: ACC.NS
+  currency: INR
+  exchange: NSE
+  name: ACC Ltd.
+- code: ACMESOLAR.NS
+  currency: INR
+  exchange: NSE
+  name: ACME Solar Holdings Ltd.
+- code: AIAENG.NS
+  currency: INR
+  exchange: NSE
+  name: AIA Engineering Ltd.
+- code: APLAPOLLO.NS
+  currency: INR
+  exchange: NSE
+  name: APL Apollo Tubes Ltd.
+- code: AUBANK.NS
+  currency: INR
+  exchange: NSE
+  name: AU Small Finance Bank Ltd.
+- code: AWL.NS
+  currency: INR
+  exchange: NSE
+  name: AWL Agri Business Ltd.
+- code: AADHARHFC.NS
+  currency: INR
+  exchange: NSE
+  name: Aadhar Housing Finance Ltd.
+- code: AARTIIND.NS
+  currency: INR
+  exchange: NSE
+  name: Aarti Industries Ltd.
+- code: AAVAS.NS
+  currency: INR
+  exchange: NSE
+  name: Aavas Financiers Ltd.
+- code: ABBOTINDIA.NS
+  currency: INR
+  exchange: NSE
+  name: Abbott India Ltd.
+- code: ACE.NS
+  currency: INR
+  exchange: NSE
+  name: Action Construction Equipment Ltd.
+- code: ADANIENSOL.NS
+  currency: INR
+  exchange: NSE
+  name: Adani Energy Solutions Ltd.
+- code: ADANIENT.NS
+  currency: INR
+  exchange: NSE
+  name: Adani Enterprises Ltd.
+- code: ADANIGREEN.NS
+  currency: INR
+  exchange: NSE
+  name: Adani Green Energy Ltd.
+- code: ADANIPORTS.NS
+  currency: INR
+  exchange: NSE
+  name: Adani Ports and Special Economic Zone Ltd.
+- code: ADANIPOWER.NS
+  currency: INR
+  exchange: NSE
+  name: Adani Power Ltd.
+- code: ATGL.NS
+  currency: INR
+  exchange: NSE
+  name: Adani Total Gas Ltd.
+- code: ABCAPITAL.NS
+  currency: INR
+  exchange: NSE
+  name: Aditya Birla Capital Ltd.
+- code: ABFRL.NS
+  currency: INR
+  exchange: NSE
+  name: Aditya Birla Fashion and Retail Ltd.
+- code: ABLBL.NS
+  currency: INR
+  exchange: NSE
+  name: Aditya Birla Lifestyle Brands Ltd.
+- code: ABREL.NS
+  currency: INR
+  exchange: NSE
+  name: Aditya Birla Real Estate Ltd.
+- code: ABSLAMC.NS
+  currency: INR
+  exchange: NSE
+  name: Aditya Birla Sun Life AMC Ltd.
+- code: AEGISLOG.NS
+  currency: INR
+  exchange: NSE
+  name: Aegis Logistics Ltd.
+- code: AEGISVOPAK.NS
+  currency: INR
+  exchange: NSE
+  name: Aegis Vopak Terminals Ltd.
+- code: AFCONS.NS
+  currency: INR
+  exchange: NSE
+  name: Afcons Infrastructure Ltd.
+- code: AFFLE.NS
+  currency: INR
+  exchange: NSE
+  name: Affle 3i Ltd.
+- code: AJANTPHARM.NS
+  currency: INR
+  exchange: NSE
+  name: Ajanta Pharmaceuticals Ltd.
+- code: AKUMS.NS
+  currency: INR
+  exchange: NSE
+  name: Akums Drugs and Pharmaceuticals Ltd.
+- code: AKZOINDIA.NS
+  currency: INR
+  exchange: NSE
+  name: Akzo Nobel India Ltd.
+- code: APLLTD.NS
+  currency: INR
+  exchange: NSE
+  name: Alembic Pharmaceuticals Ltd.
+- code: ALKEM.NS
+  currency: INR
+  exchange: NSE
+  name: Alkem Laboratories Ltd.
+- code: ALKYLAMINE.NS
+  currency: INR
+  exchange: NSE
+  name: Alkyl Amines Chemicals Ltd.
+- code: ALOKINDS.NS
+  currency: INR
+  exchange: NSE
+  name: Alok Industries Ltd.
+- code: ARE&M.NS
+  currency: INR
+  exchange: NSE
+  name: Amara Raja Energy & Mobility Ltd.
+- code: AMBER.NS
+  currency: INR
+  exchange: NSE
+  name: Amber Enterprises India Ltd.
+- code: AMBUJACEM.NS
+  currency: INR
+  exchange: NSE
+  name: Ambuja Cements Ltd.
+- code: ANANDRATHI.NS
+  currency: INR
+  exchange: NSE
+  name: Anand Rathi Wealth Ltd.
+- code: ANANTRAJ.NS
+  currency: INR
+  exchange: NSE
+  name: Anant Raj Ltd.
+- code: ANGELONE.NS
+  currency: INR
+  exchange: NSE
+  name: Angel One Ltd.
+- code: APARINDS.NS
+  currency: INR
+  exchange: NSE
+  name: Apar Industries Ltd.
+- code: APOLLOHOSP.NS
+  currency: INR
+  exchange: NSE
+  name: Apollo Hospitals Enterprise Ltd.
+- code: APOLLOTYRE.NS
+  currency: INR
+  exchange: NSE
+  name: Apollo Tyres Ltd.
+- code: APTUS.NS
+  currency: INR
+  exchange: NSE
+  name: Aptus Value Housing Finance India Ltd.
+- code: ASAHIINDIA.NS
+  currency: INR
+  exchange: NSE
+  name: Asahi India Glass Ltd.
+- code: ASHOKLEY.NS
+  currency: INR
+  exchange: NSE
+  name: Ashok Leyland Ltd.
+- code: ASIANPAINT.NS
+  currency: INR
+  exchange: NSE
+  name: Asian Paints Ltd.
+- code: ASTERDM.NS
+  currency: INR
+  exchange: NSE
+  name: Aster DM Healthcare Ltd.
+- code: ASTRAZEN.NS
+  currency: INR
+  exchange: NSE
+  name: AstraZenca Pharma India Ltd.
+- code: ASTRAL.NS
+  currency: INR
+  exchange: NSE
+  name: Astral Ltd.
+- code: ATHERENERG.NS
+  currency: INR
+  exchange: NSE
+  name: Ather Energy Ltd.
+- code: ATUL.NS
+  currency: INR
+  exchange: NSE
+  name: Atul Ltd.
+- code: AUROPHARMA.NS
+  currency: INR
+  exchange: NSE
+  name: Aurobindo Pharma Ltd.
+- code: AIIL.NS
+  currency: INR
+  exchange: NSE
+  name: Authum Investment & Infrastructure Ltd.
+- code: DMART.NS
+  currency: INR
+  exchange: NSE
+  name: Avenue Supermarts Ltd.
+- code: AXISBANK.NS
+  currency: INR
+  exchange: NSE
+  name: Axis Bank Ltd.
+- code: BASF.NS
+  currency: INR
+  exchange: NSE
+  name: BASF India Ltd.
+- code: BEML.NS
+  currency: INR
+  exchange: NSE
+  name: BEML Ltd.
+- code: BLS.NS
+  currency: INR
+  exchange: NSE
+  name: BLS International Services Ltd.
+- code: BSE.NS
+  currency: INR
+  exchange: NSE
+  name: BSE Ltd.
+- code: BAJAJ-AUTO.NS
+  currency: INR
+  exchange: NSE
+  name: Bajaj Auto Ltd.
+- code: BAJFINANCE.NS
+  currency: INR
+  exchange: NSE
+  name: Bajaj Finance Ltd.
+- code: BAJAJFINSV.NS
+  currency: INR
+  exchange: NSE
+  name: Bajaj Finserv Ltd.
+- code: BAJAJHLDNG.NS
+  currency: INR
+  exchange: NSE
+  name: Bajaj Holdings & Investment Ltd.
+- code: BAJAJHFL.NS
+  currency: INR
+  exchange: NSE
+  name: Bajaj Housing Finance Ltd.
+- code: BALKRISIND.NS
+  currency: INR
+  exchange: NSE
+  name: Balkrishna Industries Ltd.
+- code: BALRAMCHIN.NS
+  currency: INR
+  exchange: NSE
+  name: Balrampur Chini Mills Ltd.
+- code: BANDHANBNK.NS
+  currency: INR
+  exchange: NSE
+  name: Bandhan Bank Ltd.
+- code: BANKBARODA.NS
+  currency: INR
+  exchange: NSE
+  name: Bank of Baroda
+- code: BANKINDIA.NS
+  currency: INR
+  exchange: NSE
+  name: Bank of India
+- code: MAHABANK.NS
+  currency: INR
+  exchange: NSE
+  name: Bank of Maharashtra
+- code: BATAINDIA.NS
+  currency: INR
+  exchange: NSE
+  name: Bata India Ltd.
+- code: BAYERCROP.NS
+  currency: INR
+  exchange: NSE
+  name: Bayer Cropscience Ltd.
+- code: BERGEPAINT.NS
+  currency: INR
+  exchange: NSE
+  name: Berger Paints India Ltd.
+- code: BDL.NS
+  currency: INR
+  exchange: NSE
+  name: Bharat Dynamics Ltd.
+- code: BEL.NS
+  currency: INR
+  exchange: NSE
+  name: Bharat Electronics Ltd.
+- code: BHARATFORG.NS
+  currency: INR
+  exchange: NSE
+  name: Bharat Forge Ltd.
+- code: BHEL.NS
+  currency: INR
+  exchange: NSE
+  name: Bharat Heavy Electricals Ltd.
+- code: BPCL.NS
+  currency: INR
+  exchange: NSE
+  name: Bharat Petroleum Corporation Ltd.
+- code: BHARTIARTL.NS
+  currency: INR
+  exchange: NSE
+  name: Bharti Airtel Ltd.
+- code: BHARTIHEXA.NS
+  currency: INR
+  exchange: NSE
+  name: Bharti Hexacom Ltd.
+- code: BIKAJI.NS
+  currency: INR
+  exchange: NSE
+  name: Bikaji Foods International Ltd.
+- code: BIOCON.NS
+  currency: INR
+  exchange: NSE
+  name: Biocon Ltd.
+- code: BSOFT.NS
+  currency: INR
+  exchange: NSE
+  name: Birlasoft Ltd.
+- code: BLUEDART.NS
+  currency: INR
+  exchange: NSE
+  name: Blue Dart Express Ltd.
+- code: BLUEJET.NS
+  currency: INR
+  exchange: NSE
+  name: Blue Jet Healthcare Ltd.
+- code: BLUESTARCO.NS
+  currency: INR
+  exchange: NSE
+  name: Blue Star Ltd.
+- code: BBTC.NS
+  currency: INR
+  exchange: NSE
+  name: Bombay Burmah Trading Corporation Ltd.
+- code: BOSCHLTD.NS
+  currency: INR
+  exchange: NSE
+  name: Bosch Ltd.
+- code: FIRSTCRY.NS
+  currency: INR
+  exchange: NSE
+  name: Brainbees Solutions Ltd.
+- code: BRIGADE.NS
+  currency: INR
+  exchange: NSE
+  name: Brigade Enterprises Ltd.
+- code: BRITANNIA.NS
+  currency: INR
+  exchange: NSE
+  name: Britannia Industries Ltd.
+- code: MAPMYINDIA.NS
+  currency: INR
+  exchange: NSE
+  name: C.E. Info Systems Ltd.
+- code: CCL.NS
+  currency: INR
+  exchange: NSE
+  name: CCL Products (I) Ltd.
+- code: CESC.NS
+  currency: INR
+  exchange: NSE
+  name: CESC Ltd.
+- code: CGPOWER.NS
+  currency: INR
+  exchange: NSE
+  name: CG Power and Industrial Solutions Ltd.
+- code: CRISIL.NS
+  currency: INR
+  exchange: NSE
+  name: CRISIL Ltd.
+- code: CAMPUS.NS
+  currency: INR
+  exchange: NSE
+  name: Campus Activewear Ltd.
+- code: CANFINHOME.NS
+  currency: INR
+  exchange: NSE
+  name: Can Fin Homes Ltd.
+- code: CANBK.NS
+  currency: INR
+  exchange: NSE
+  name: Canara Bank
+- code: CAPLIPOINT.NS
+  currency: INR
+  exchange: NSE
+  name: Caplin Point Laboratories Ltd.
+- code: CGCL.NS
+  currency: INR
+  exchange: NSE
+  name: Capri Global Capital Ltd.
+- code: CARBORUNIV.NS
+  currency: INR
+  exchange: NSE
+  name: Carborundum Universal Ltd.
+- code: CASTROLIND.NS
+  currency: INR
+  exchange: NSE
+  name: Castrol India Ltd.
+- code: CEATLTD.NS
+  currency: INR
+  exchange: NSE
+  name: Ceat Ltd.
+- code: CENTRALBK.NS
+  currency: INR
+  exchange: NSE
+  name: Central Bank of India
+- code: CDSL.NS
+  currency: INR
+  exchange: NSE
+  name: Central Depository Services (India) Ltd.
+- code: CENTURYPLY.NS
+  currency: INR
+  exchange: NSE
+  name: Century Plyboards (India) Ltd.
+- code: CERA.NS
+  currency: INR
+  exchange: NSE
+  name: Cera Sanitaryware Ltd
+- code: CHALET.NS
+  currency: INR
+  exchange: NSE
+  name: Chalet Hotels Ltd.
+- code: CHAMBLFERT.NS
+  currency: INR
+  exchange: NSE
+  name: Chambal Fertilizers & Chemicals Ltd.
+- code: CHENNPETRO.NS
+  currency: INR
+  exchange: NSE
+  name: Chennai Petroleum Corporation Ltd.
+- code: CHOICEIN.NS
+  currency: INR
+  exchange: NSE
+  name: Choice International Ltd.
+- code: CHOLAHLDNG.NS
+  currency: INR
+  exchange: NSE
+  name: Cholamandalam Financial Holdings Ltd.
+- code: CHOLAFIN.NS
+  currency: INR
+  exchange: NSE
+  name: Cholamandalam Investment and Finance Company Ltd.
+- code: CIPLA.NS
+  currency: INR
+  exchange: NSE
+  name: Cipla Ltd.
+- code: CUB.NS
+  currency: INR
+  exchange: NSE
+  name: City Union Bank Ltd.
+- code: CLEAN.NS
+  currency: INR
+  exchange: NSE
+  name: Clean Science and Technology Ltd.
+- code: COALINDIA.NS
+  currency: INR
+  exchange: NSE
+  name: Coal India Ltd.
+- code: COCHINSHIP.NS
+  currency: INR
+  exchange: NSE
+  name: Cochin Shipyard Ltd.
+- code: COFORGE.NS
+  currency: INR
+  exchange: NSE
+  name: Coforge Ltd.
+- code: COHANCE.NS
+  currency: INR
+  exchange: NSE
+  name: Cohance Lifesciences Ltd.
+- code: COLPAL.NS
+  currency: INR
+  exchange: NSE
+  name: Colgate Palmolive (India) Ltd.
+- code: CAMS.NS
+  currency: INR
+  exchange: NSE
+  name: Computer Age Management Services Ltd.
+- code: CONCORDBIO.NS
+  currency: INR
+  exchange: NSE
+  name: Concord Biotech Ltd.
+- code: CONCOR.NS
+  currency: INR
+  exchange: NSE
+  name: Container Corporation of India Ltd.
+- code: COROMANDEL.NS
+  currency: INR
+  exchange: NSE
+  name: Coromandel International Ltd.
+- code: CRAFTSMAN.NS
+  currency: INR
+  exchange: NSE
+  name: Craftsman Automation Ltd.
+- code: CREDITACC.NS
+  currency: INR
+  exchange: NSE
+  name: CreditAccess Grameen Ltd.
+- code: CROMPTON.NS
+  currency: INR
+  exchange: NSE
+  name: Crompton Greaves Consumer Electricals Ltd.
+- code: CUMMINSIND.NS
+  currency: INR
+  exchange: NSE
+  name: Cummins India Ltd.
+- code: CYIENT.NS
+  currency: INR
+  exchange: NSE
+  name: Cyient Ltd.
+- code: DCMSHRIRAM.NS
+  currency: INR
+  exchange: NSE
+  name: DCM Shriram Ltd.
+- code: DLF.NS
+  currency: INR
+  exchange: NSE
+  name: DLF Ltd.
+- code: DOMS.NS
+  currency: INR
+  exchange: NSE
+  name: DOMS Industries Ltd.
+- code: DABUR.NS
+  currency: INR
+  exchange: NSE
+  name: Dabur India Ltd.
+- code: DALBHARAT.NS
+  currency: INR
+  exchange: NSE
+  name: Dalmia Bharat Ltd.
+- code: DATAPATTNS.NS
+  currency: INR
+  exchange: NSE
+  name: Data Patterns (India) Ltd.
+- code: DEEPAKFERT.NS
+  currency: INR
+  exchange: NSE
+  name: Deepak Fertilisers & Petrochemicals Corp. Ltd.
+- code: DEEPAKNTR.NS
+  currency: INR
+  exchange: NSE
+  name: Deepak Nitrite Ltd.
+- code: DELHIVERY.NS
+  currency: INR
+  exchange: NSE
+  name: Delhivery Ltd.
+- code: DEVYANI.NS
+  currency: INR
+  exchange: NSE
+  name: Devyani International Ltd.
+- code: DIVISLAB.NS
+  currency: INR
+  exchange: NSE
+  name: Divi's Laboratories Ltd.
+- code: DIXON.NS
+  currency: INR
+  exchange: NSE
+  name: Dixon Technologies (India) Ltd.
+- code: AGARWALEYE.NS
+  currency: INR
+  exchange: NSE
+  name: Dr. Agarwal's Health Care Ltd.
+- code: LALPATHLAB.NS
+  currency: INR
+  exchange: NSE
+  name: Dr. Lal Path Labs Ltd.
+- code: DRREDDY.NS
+  currency: INR
+  exchange: NSE
+  name: Dr. Reddy's Laboratories Ltd.
+- code: EIDPARRY.NS
+  currency: INR
+  exchange: NSE
+  name: E.I.D. Parry (India) Ltd.
+- code: EIHOTEL.NS
+  currency: INR
+  exchange: NSE
+  name: EIH Ltd.
+- code: EICHERMOT.NS
+  currency: INR
+  exchange: NSE
+  name: Eicher Motors Ltd.
+- code: ELECON.NS
+  currency: INR
+  exchange: NSE
+  name: Elecon Engineering Co. Ltd.
+- code: ELGIEQUIP.NS
+  currency: INR
+  exchange: NSE
+  name: Elgi Equipments Ltd.
+- code: EMAMILTD.NS
+  currency: INR
+  exchange: NSE
+  name: Emami Ltd.
+- code: EMCURE.NS
+  currency: INR
+  exchange: NSE
+  name: Emcure Pharmaceuticals Ltd.
+- code: ENDURANCE.NS
+  currency: INR
+  exchange: NSE
+  name: Endurance Technologies Ltd.
+- code: ENGINERSIN.NS
+  currency: INR
+  exchange: NSE
+  name: Engineers India Ltd.
+- code: ERIS.NS
+  currency: INR
+  exchange: NSE
+  name: Eris Lifesciences Ltd.
+- code: ESCORTS.NS
+  currency: INR
+  exchange: NSE
+  name: Escorts Kubota Ltd.
+- code: ETERNAL.NS
+  currency: INR
+  exchange: NSE
+  name: Eternal Ltd.
+- code: EXIDEIND.NS
+  currency: INR
+  exchange: NSE
+  name: Exide Industries Ltd.
+- code: NYKAA.NS
+  currency: INR
+  exchange: NSE
+  name: FSN E-Commerce Ventures Ltd.
+- code: FEDERALBNK.NS
+  currency: INR
+  exchange: NSE
+  name: Federal Bank Ltd.
+- code: FACT.NS
+  currency: INR
+  exchange: NSE
+  name: Fertilisers and Chemicals Travancore Ltd.
+- code: FINCABLES.NS
+  currency: INR
+  exchange: NSE
+  name: Finolex Cables Ltd.
+- code: FINPIPE.NS
+  currency: INR
+  exchange: NSE
+  name: Finolex Industries Ltd.
+- code: FSL.NS
+  currency: INR
+  exchange: NSE
+  name: Firstsource Solutions Ltd.
+- code: FIVESTAR.NS
+  currency: INR
+  exchange: NSE
+  name: Five-Star Business Finance Ltd.
+- code: FORCEMOT.NS
+  currency: INR
+  exchange: NSE
+  name: Force Motors Ltd.
+- code: FORTIS.NS
+  currency: INR
+  exchange: NSE
+  name: Fortis Healthcare Ltd.
+- code: GAIL.NS
+  currency: INR
+  exchange: NSE
+  name: GAIL (India) Ltd.
+- code: GVT&D.NS
+  currency: INR
+  exchange: NSE
+  name: GE Vernova T&D India Ltd.
+- code: GMRAIRPORT.NS
+  currency: INR
+  exchange: NSE
+  name: GMR Airports Ltd.
+- code: GRSE.NS
+  currency: INR
+  exchange: NSE
+  name: Garden Reach Shipbuilders & Engineers Ltd.
+- code: GICRE.NS
+  currency: INR
+  exchange: NSE
+  name: General Insurance Corporation of India
+- code: GILLETTE.NS
+  currency: INR
+  exchange: NSE
+  name: Gillette India Ltd.
+- code: GLAND.NS
+  currency: INR
+  exchange: NSE
+  name: Gland Pharma Ltd.
+- code: GLAXO.NS
+  currency: INR
+  exchange: NSE
+  name: Glaxosmithkline Pharmaceuticals Ltd.
+- code: GLENMARK.NS
+  currency: INR
+  exchange: NSE
+  name: Glenmark Pharmaceuticals Ltd.
+- code: MEDANTA.NS
+  currency: INR
+  exchange: NSE
+  name: Global Health Ltd.
+- code: GODIGIT.NS
+  currency: INR
+  exchange: NSE
+  name: Go Digit General Insurance Ltd.
+- code: GPIL.NS
+  currency: INR
+  exchange: NSE
+  name: Godawari Power & Ispat Ltd.
+- code: GODFRYPHLP.NS
+  currency: INR
+  exchange: NSE
+  name: Godfrey Phillips India Ltd.
+- code: GODREJAGRO.NS
+  currency: INR
+  exchange: NSE
+  name: Godrej Agrovet Ltd.
+- code: GODREJCP.NS
+  currency: INR
+  exchange: NSE
+  name: Godrej Consumer Products Ltd.
+- code: GODREJIND.NS
+  currency: INR
+  exchange: NSE
+  name: Godrej Industries Ltd.
+- code: GODREJPROP.NS
+  currency: INR
+  exchange: NSE
+  name: Godrej Properties Ltd.
+- code: GRANULES.NS
+  currency: INR
+  exchange: NSE
+  name: Granules India Ltd.
+- code: GRAPHITE.NS
+  currency: INR
+  exchange: NSE
+  name: Graphite India Ltd.
+- code: GRASIM.NS
+  currency: INR
+  exchange: NSE
+  name: Grasim Industries Ltd.
+- code: GRAVITA.NS
+  currency: INR
+  exchange: NSE
+  name: Gravita India Ltd.
+- code: GESHIP.NS
+  currency: INR
+  exchange: NSE
+  name: Great Eastern Shipping Co. Ltd.
+- code: FLUOROCHEM.NS
+  currency: INR
+  exchange: NSE
+  name: Gujarat Fluorochemicals Ltd.
+- code: GUJGASLTD.NS
+  currency: INR
+  exchange: NSE
+  name: Gujarat Gas Ltd.
+- code: GMDCLTD.NS
+  currency: INR
+  exchange: NSE
+  name: Gujarat Mineral Development Corporation Ltd.
+- code: GSPL.NS
+  currency: INR
+  exchange: NSE
+  name: Gujarat State Petronet Ltd.
+- code: HEG.NS
+  currency: INR
+  exchange: NSE
+  name: H.E.G. Ltd.
+- code: HBLENGINE.NS
+  currency: INR
+  exchange: NSE
+  name: HBL Engineering Ltd.
+- code: HCLTECH.NS
+  currency: INR
+  exchange: NSE
+  name: HCL Technologies Ltd.
+- code: HDFCAMC.NS
+  currency: INR
+  exchange: NSE
+  name: HDFC Asset Management Company Ltd.
+- code: HDFCBANK.NS
+  currency: INR
+  exchange: NSE
+  name: HDFC Bank Ltd.
+- code: HDFCLIFE.NS
+  currency: INR
+  exchange: NSE
+  name: HDFC Life Insurance Company Ltd.
+- code: HFCL.NS
+  currency: INR
+  exchange: NSE
+  name: HFCL Ltd.
+- code: HAPPSTMNDS.NS
+  currency: INR
+  exchange: NSE
+  name: Happiest Minds Technologies Ltd.
+- code: HAVELLS.NS
+  currency: INR
+  exchange: NSE
+  name: Havells India Ltd.
+- code: HEROMOTOCO.NS
+  currency: INR
+  exchange: NSE
+  name: Hero MotoCorp Ltd.
+- code: HEXT.NS
+  currency: INR
+  exchange: NSE
+  name: Hexaware Technologies Ltd.
+- code: HSCL.NS
+  currency: INR
+  exchange: NSE
+  name: Himadri Speciality Chemical Ltd.
+- code: HINDALCO.NS
+  currency: INR
+  exchange: NSE
+  name: Hindalco Industries Ltd.
+- code: HAL.NS
+  currency: INR
+  exchange: NSE
+  name: Hindustan Aeronautics Ltd.
+- code: HINDCOPPER.NS
+  currency: INR
+  exchange: NSE
+  name: Hindustan Copper Ltd.
+- code: HINDPETRO.NS
+  currency: INR
+  exchange: NSE
+  name: Hindustan Petroleum Corporation Ltd.
+- code: HINDUNILVR.NS
+  currency: INR
+  exchange: NSE
+  name: Hindustan Unilever Ltd.
+- code: HINDZINC.NS
+  currency: INR
+  exchange: NSE
+  name: Hindustan Zinc Ltd.
+- code: POWERINDIA.NS
+  currency: INR
+  exchange: NSE
+  name: Hitachi Energy India Ltd.
+- code: HOMEFIRST.NS
+  currency: INR
+  exchange: NSE
+  name: Home First Finance Company India Ltd.
+- code: HONASA.NS
+  currency: INR
+  exchange: NSE
+  name: Honasa Consumer Ltd.
+- code: HONAUT.NS
+  currency: INR
+  exchange: NSE
+  name: Honeywell Automation India Ltd.
+- code: HUDCO.NS
+  currency: INR
+  exchange: NSE
+  name: Housing & Urban Development Corporation Ltd.
+- code: HYUNDAI.NS
+  currency: INR
+  exchange: NSE
+  name: Hyundai Motor India Ltd.
+- code: ICICIBANK.NS
+  currency: INR
+  exchange: NSE
+  name: ICICI Bank Ltd.
+- code: ICICIGI.NS
+  currency: INR
+  exchange: NSE
+  name: ICICI Lombard General Insurance Company Ltd.
+- code: ICICIPRULI.NS
+  currency: INR
+  exchange: NSE
+  name: ICICI Prudential Life Insurance Company Ltd.
+- code: IDBI.NS
+  currency: INR
+  exchange: NSE
+  name: IDBI Bank Ltd.
+- code: IDFCFIRSTB.NS
+  currency: INR
+  exchange: NSE
+  name: IDFC First Bank Ltd.
+- code: IFCI.NS
+  currency: INR
+  exchange: NSE
+  name: IFCI Ltd.
+- code: IIFL.NS
+  currency: INR
+  exchange: NSE
+  name: IIFL Finance Ltd.
+- code: INOXINDIA.NS
+  currency: INR
+  exchange: NSE
+  name: INOX India Ltd.
+- code: IRB.NS
+  currency: INR
+  exchange: NSE
+  name: IRB Infrastructure Developers Ltd.
+- code: IRCON.NS
+  currency: INR
+  exchange: NSE
+  name: IRCON International Ltd.
+- code: ITCHOTELS.NS
+  currency: INR
+  exchange: NSE
+  name: ITC Hotels Ltd.
+- code: ITC.NS
+  currency: INR
+  exchange: NSE
+  name: ITC Ltd.
+- code: ITI.NS
+  currency: INR
+  exchange: NSE
+  name: ITI Ltd.
+- code: INDGN.NS
+  currency: INR
+  exchange: NSE
+  name: Indegene Ltd.
+- code: INDIACEM.NS
+  currency: INR
+  exchange: NSE
+  name: India Cements Ltd.
+- code: INDIAMART.NS
+  currency: INR
+  exchange: NSE
+  name: Indiamart Intermesh Ltd.
+- code: INDIANB.NS
+  currency: INR
+  exchange: NSE
+  name: Indian Bank
+- code: IEX.NS
+  currency: INR
+  exchange: NSE
+  name: Indian Energy Exchange Ltd.
+- code: INDHOTEL.NS
+  currency: INR
+  exchange: NSE
+  name: Indian Hotels Co. Ltd.
+- code: IOC.NS
+  currency: INR
+  exchange: NSE
+  name: Indian Oil Corporation Ltd.
+- code: IOB.NS
+  currency: INR
+  exchange: NSE
+  name: Indian Overseas Bank
+- code: IRCTC.NS
+  currency: INR
+  exchange: NSE
+  name: Indian Railway Catering And Tourism Corporation Ltd.
+- code: IRFC.NS
+  currency: INR
+  exchange: NSE
+  name: Indian Railway Finance Corporation Ltd.
+- code: IREDA.NS
+  currency: INR
+  exchange: NSE
+  name: Indian Renewable Energy Development Agency Ltd.
+- code: IGL.NS
+  currency: INR
+  exchange: NSE
+  name: Indraprastha Gas Ltd.
+- code: INDUSTOWER.NS
+  currency: INR
+  exchange: NSE
+  name: Indus Towers Ltd.
+- code: INDUSINDBK.NS
+  currency: INR
+  exchange: NSE
+  name: IndusInd Bank Ltd.
+- code: NAUKRI.NS
+  currency: INR
+  exchange: NSE
+  name: Info Edge (India) Ltd.
+- code: INFY.NS
+  currency: INR
+  exchange: NSE
+  name: Infosys Ltd.
+- code: INOXWIND.NS
+  currency: INR
+  exchange: NSE
+  name: Inox Wind Ltd.
+- code: INTELLECT.NS
+  currency: INR
+  exchange: NSE
+  name: Intellect Design Arena Ltd.
+- code: INDIGO.NS
+  currency: INR
+  exchange: NSE
+  name: InterGlobe Aviation Ltd.
+- code: IGIL.NS
+  currency: INR
+  exchange: NSE
+  name: International Gemmological Institute (India) Ltd.
+- code: IKS.NS
+  currency: INR
+  exchange: NSE
+  name: Inventurus Knowledge Solutions Ltd.
+- code: IPCALAB.NS
+  currency: INR
+  exchange: NSE
+  name: Ipca Laboratories Ltd.
+- code: JBCHEPHARM.NS
+  currency: INR
+  exchange: NSE
+  name: J.B. Chemicals & Pharmaceuticals Ltd.
+- code: JKCEMENT.NS
+  currency: INR
+  exchange: NSE
+  name: J.K. Cement Ltd.
+- code: JBMA.NS
+  currency: INR
+  exchange: NSE
+  name: JBM Auto Ltd.
+- code: JKTYRE.NS
+  currency: INR
+  exchange: NSE
+  name: JK Tyre & Industries Ltd.
+- code: JMFINANCIL.NS
+  currency: INR
+  exchange: NSE
+  name: JM Financial Ltd.
+- code: JSWENERGY.NS
+  currency: INR
+  exchange: NSE
+  name: JSW Energy Ltd.
+- code: JSWINFRA.NS
+  currency: INR
+  exchange: NSE
+  name: JSW Infrastructure Ltd.
+- code: JSWSTEEL.NS
+  currency: INR
+  exchange: NSE
+  name: JSW Steel Ltd.
+- code: JPPOWER.NS
+  currency: INR
+  exchange: NSE
+  name: Jaiprakash Power Ventures Ltd.
+- code: J&KBANK.NS
+  currency: INR
+  exchange: NSE
+  name: Jammu & Kashmir Bank Ltd.
+- code: JINDALSAW.NS
+  currency: INR
+  exchange: NSE
+  name: Jindal Saw Ltd.
+- code: JSL.NS
+  currency: INR
+  exchange: NSE
+  name: Jindal Stainless Ltd.
+- code: JINDALSTEL.NS
+  currency: INR
+  exchange: NSE
+  name: Jindal Steel Ltd.
+- code: JIOFIN.NS
+  currency: INR
+  exchange: NSE
+  name: Jio Financial Services Ltd.
+- code: JUBLFOOD.NS
+  currency: INR
+  exchange: NSE
+  name: Jubilant Foodworks Ltd.
+- code: JUBLINGREA.NS
+  currency: INR
+  exchange: NSE
+  name: Jubilant Ingrevia Ltd.
+- code: JUBLPHARMA.NS
+  currency: INR
+  exchange: NSE
+  name: Jubilant Pharmova Ltd.
+- code: JWL.NS
+  currency: INR
+  exchange: NSE
+  name: Jupiter Wagons Ltd.
+- code: JYOTHYLAB.NS
+  currency: INR
+  exchange: NSE
+  name: Jyothy Labs Ltd.
+- code: JYOTICNC.NS
+  currency: INR
+  exchange: NSE
+  name: Jyoti CNC Automation Ltd.
+- code: KPRMILL.NS
+  currency: INR
+  exchange: NSE
+  name: K.P.R. Mill Ltd.
+- code: KEI.NS
+  currency: INR
+  exchange: NSE
+  name: KEI Industries Ltd.
+- code: KPITTECH.NS
+  currency: INR
+  exchange: NSE
+  name: KPIT Technologies Ltd.
+- code: KSB.NS
+  currency: INR
+  exchange: NSE
+  name: KSB Ltd.
+- code: KAJARIACER.NS
+  currency: INR
+  exchange: NSE
+  name: Kajaria Ceramics Ltd.
+- code: KPIL.NS
+  currency: INR
+  exchange: NSE
+  name: Kalpataru Projects International Ltd.
+- code: KALYANKJIL.NS
+  currency: INR
+  exchange: NSE
+  name: Kalyan Jewellers India Ltd.
+- code: KARURVYSYA.NS
+  currency: INR
+  exchange: NSE
+  name: Karur Vysya Bank Ltd.
+- code: KAYNES.NS
+  currency: INR
+  exchange: NSE
+  name: Kaynes Technology India Ltd.
+- code: KEC.NS
+  currency: INR
+  exchange: NSE
+  name: Kec International Ltd.
+- code: KFINTECH.NS
+  currency: INR
+  exchange: NSE
+  name: Kfin Technologies Ltd.
+- code: KIRLOSBROS.NS
+  currency: INR
+  exchange: NSE
+  name: Kirloskar Brothers Ltd.
+- code: KIRLOSENG.NS
+  currency: INR
+  exchange: NSE
+  name: Kirloskar Oil Eng Ltd.
+- code: KOTAKBANK.NS
+  currency: INR
+  exchange: NSE
+  name: Kotak Mahindra Bank Ltd.
+- code: KIMS.NS
+  currency: INR
+  exchange: NSE
+  name: Krishna Institute of Medical Sciences Ltd.
+- code: LTF.NS
+  currency: INR
+  exchange: NSE
+  name: L&T Finance Ltd.
+- code: LTTS.NS
+  currency: INR
+  exchange: NSE
+  name: L&T Technology Services Ltd.
+- code: LICHSGFIN.NS
+  currency: INR
+  exchange: NSE
+  name: LIC Housing Finance Ltd.
+- code: LTFOODS.NS
+  currency: INR
+  exchange: NSE
+  name: LT Foods Ltd.
+- code: LTIM.NS
+  currency: INR
+  exchange: NSE
+  name: LTIMindtree Ltd.
+- code: LT.NS
+  currency: INR
+  exchange: NSE
+  name: Larsen & Toubro Ltd.
+- code: LATENTVIEW.NS
+  currency: INR
+  exchange: NSE
+  name: Latent View Analytics Ltd.
+- code: LAURUSLABS.NS
+  currency: INR
+  exchange: NSE
+  name: Laurus Labs Ltd.
+- code: THELEELA.NS
+  currency: INR
+  exchange: NSE
+  name: Leela Palaces Hotels & Resorts Ltd.
+- code: LEMONTREE.NS
+  currency: INR
+  exchange: NSE
+  name: Lemon Tree Hotels Ltd.
+- code: LICI.NS
+  currency: INR
+  exchange: NSE
+  name: Life Insurance Corporation of India
+- code: LINDEINDIA.NS
+  currency: INR
+  exchange: NSE
+  name: Linde India Ltd.
+- code: LLOYDSME.NS
+  currency: INR
+  exchange: NSE
+  name: Lloyds Metals And Energy Ltd.
+- code: LODHA.NS
+  currency: INR
+  exchange: NSE
+  name: Lodha Developers Ltd.
+- code: LUPIN.NS
+  currency: INR
+  exchange: NSE
+  name: Lupin Ltd.
+- code: MMTC.NS
+  currency: INR
+  exchange: NSE
+  name: MMTC Ltd.
+- code: MRF.NS
+  currency: INR
+  exchange: NSE
+  name: MRF Ltd.
+- code: MGL.NS
+  currency: INR
+  exchange: NSE
+  name: Mahanagar Gas Ltd.
+- code: MAHSCOOTER.NS
+  currency: INR
+  exchange: NSE
+  name: Maharashtra Scooters Ltd.
+- code: MAHSEAMLES.NS
+  currency: INR
+  exchange: NSE
+  name: Maharashtra Seamless Ltd.
+- code: M&MFIN.NS
+  currency: INR
+  exchange: NSE
+  name: Mahindra & Mahindra Financial Services Ltd.
+- code: M&M.NS
+  currency: INR
+  exchange: NSE
+  name: Mahindra & Mahindra Ltd.
+- code: MANAPPURAM.NS
+  currency: INR
+  exchange: NSE
+  name: Manappuram Finance Ltd.
+- code: MRPL.NS
+  currency: INR
+  exchange: NSE
+  name: Mangalore Refinery & Petrochemicals Ltd.
+- code: MANKIND.NS
+  currency: INR
+  exchange: NSE
+  name: Mankind Pharma Ltd.
+- code: MARICO.NS
+  currency: INR
+  exchange: NSE
+  name: Marico Ltd.
+- code: MARUTI.NS
+  currency: INR
+  exchange: NSE
+  name: Maruti Suzuki India Ltd.
+- code: MFSL.NS
+  currency: INR
+  exchange: NSE
+  name: Max Financial Services Ltd.
+- code: MAXHEALTH.NS
+  currency: INR
+  exchange: NSE
+  name: Max Healthcare Institute Ltd.
+- code: MAZDOCK.NS
+  currency: INR
+  exchange: NSE
+  name: Mazagoan Dock Shipbuilders Ltd.
+- code: METROPOLIS.NS
+  currency: INR
+  exchange: NSE
+  name: Metropolis Healthcare Ltd.
+- code: MINDACORP.NS
+  currency: INR
+  exchange: NSE
+  name: Minda Corporation Ltd.
+- code: MSUMI.NS
+  currency: INR
+  exchange: NSE
+  name: Motherson Sumi Wiring India Ltd.
+- code: MOTILALOFS.NS
+  currency: INR
+  exchange: NSE
+  name: Motilal Oswal Financial Services Ltd.
+- code: MPHASIS.NS
+  currency: INR
+  exchange: NSE
+  name: MphasiS Ltd.
+- code: MCX.NS
+  currency: INR
+  exchange: NSE
+  name: Multi Commodity Exchange of India Ltd.
+- code: MUTHOOTFIN.NS
+  currency: INR
+  exchange: NSE
+  name: Muthoot Finance Ltd.
+- code: NATCOPHARM.NS
+  currency: INR
+  exchange: NSE
+  name: NATCO Pharma Ltd.
+- code: NBCC.NS
+  currency: INR
+  exchange: NSE
+  name: NBCC (India) Ltd.
+- code: NCC.NS
+  currency: INR
+  exchange: NSE
+  name: NCC Ltd.
+- code: NHPC.NS
+  currency: INR
+  exchange: NSE
+  name: NHPC Ltd.
+- code: NLCINDIA.NS
+  currency: INR
+  exchange: NSE
+  name: NLC India Ltd.
+- code: NMDC.NS
+  currency: INR
+  exchange: NSE
+  name: NMDC Ltd.
+- code: NSLNISP.NS
+  currency: INR
+  exchange: NSE
+  name: NMDC Steel Ltd.
+- code: NTPCGREEN.NS
+  currency: INR
+  exchange: NSE
+  name: NTPC Green Energy Ltd.
+- code: NTPC.NS
+  currency: INR
+  exchange: NSE
+  name: NTPC Ltd.
+- code: NH.NS
+  currency: INR
+  exchange: NSE
+  name: Narayana Hrudayalaya Ltd.
+- code: NATIONALUM.NS
+  currency: INR
+  exchange: NSE
+  name: National Aluminium Co. Ltd.
+- code: NAVA.NS
+  currency: INR
+  exchange: NSE
+  name: Nava Ltd.
+- code: NAVINFLUOR.NS
+  currency: INR
+  exchange: NSE
+  name: Navin Fluorine International Ltd.
+- code: NESTLEIND.NS
+  currency: INR
+  exchange: NSE
+  name: Nestle India Ltd.
+- code: NETWEB.NS
+  currency: INR
+  exchange: NSE
+  name: Netweb Technologies India Ltd.
+- code: NEULANDLAB.NS
+  currency: INR
+  exchange: NSE
+  name: Neuland Laboratories Ltd.
+- code: NEWGEN.NS
+  currency: INR
+  exchange: NSE
+  name: Newgen Software Technologies Ltd.
+- code: NAM-INDIA.NS
+  currency: INR
+  exchange: NSE
+  name: Nippon Life India Asset Management Ltd.
+- code: NIVABUPA.NS
+  currency: INR
+  exchange: NSE
+  name: Niva Bupa Health Insurance Company Ltd.
+- code: NUVAMA.NS
+  currency: INR
+  exchange: NSE
+  name: Nuvama Wealth Management Ltd.
+- code: NUVOCO.NS
+  currency: INR
+  exchange: NSE
+  name: Nuvoco Vistas Corporation Ltd.
+- code: OBEROIRLTY.NS
+  currency: INR
+  exchange: NSE
+  name: Oberoi Realty Ltd.
+- code: ONGC.NS
+  currency: INR
+  exchange: NSE
+  name: Oil & Natural Gas Corporation Ltd.
+- code: OIL.NS
+  currency: INR
+  exchange: NSE
+  name: Oil India Ltd.
+- code: OLAELEC.NS
+  currency: INR
+  exchange: NSE
+  name: Ola Electric Mobility Ltd.
+- code: OLECTRA.NS
+  currency: INR
+  exchange: NSE
+  name: Olectra Greentech Ltd.
+- code: PAYTM.NS
+  currency: INR
+  exchange: NSE
+  name: One 97 Communications Ltd.
+- code: ONESOURCE.NS
+  currency: INR
+  exchange: NSE
+  name: Onesource Specialty Pharma Ltd.
+- code: OFSS.NS
+  currency: INR
+  exchange: NSE
+  name: Oracle Financial Services Software Ltd.
+- code: POLICYBZR.NS
+  currency: INR
+  exchange: NSE
+  name: PB Fintech Ltd.
+- code: PCBL.NS
+  currency: INR
+  exchange: NSE
+  name: PCBL Chemical Ltd.
+- code: PGEL.NS
+  currency: INR
+  exchange: NSE
+  name: PG Electroplast Ltd.
+- code: PIIND.NS
+  currency: INR
+  exchange: NSE
+  name: PI Industries Ltd.
+- code: PNBHOUSING.NS
+  currency: INR
+  exchange: NSE
+  name: PNB Housing Finance Ltd.
+- code: PTCIL.NS
+  currency: INR
+  exchange: NSE
+  name: PTC Industries Ltd.
+- code: PVRINOX.NS
+  currency: INR
+  exchange: NSE
+  name: PVR INOX Ltd.
+- code: PAGEIND.NS
+  currency: INR
+  exchange: NSE
+  name: Page Industries Ltd.
+- code: PATANJALI.NS
+  currency: INR
+  exchange: NSE
+  name: Patanjali Foods Ltd.
+- code: PERSISTENT.NS
+  currency: INR
+  exchange: NSE
+  name: Persistent Systems Ltd.
+- code: PETRONET.NS
+  currency: INR
+  exchange: NSE
+  name: Petronet LNG Ltd.
+- code: PFIZER.NS
+  currency: INR
+  exchange: NSE
+  name: Pfizer Ltd.
+- code: PHOENIXLTD.NS
+  currency: INR
+  exchange: NSE
+  name: Phoenix Mills Ltd.
+- code: PIDILITIND.NS
+  currency: INR
+  exchange: NSE
+  name: Pidilite Industries Ltd.
+- code: PPLPHARMA.NS
+  currency: INR
+  exchange: NSE
+  name: Piramal Pharma Ltd.
+- code: POLYMED.NS
+  currency: INR
+  exchange: NSE
+  name: Poly Medicure Ltd.
+- code: POLYCAB.NS
+  currency: INR
+  exchange: NSE
+  name: Polycab India Ltd.
+- code: POONAWALLA.NS
+  currency: INR
+  exchange: NSE
+  name: Poonawalla Fincorp Ltd.
+- code: PFC.NS
+  currency: INR
+  exchange: NSE
+  name: Power Finance Corporation Ltd.
+- code: POWERGRID.NS
+  currency: INR
+  exchange: NSE
+  name: Power Grid Corporation of India Ltd.
+- code: PRAJIND.NS
+  currency: INR
+  exchange: NSE
+  name: Praj Industries Ltd.
+- code: PREMIERENE.NS
+  currency: INR
+  exchange: NSE
+  name: Premier Energies Ltd.
+- code: PRESTIGE.NS
+  currency: INR
+  exchange: NSE
+  name: Prestige Estates Projects Ltd.
+- code: PGHH.NS
+  currency: INR
+  exchange: NSE
+  name: Procter & Gamble Hygiene & Health Care Ltd.
+- code: PNB.NS
+  currency: INR
+  exchange: NSE
+  name: Punjab National Bank
+- code: RRKABEL.NS
+  currency: INR
+  exchange: NSE
+  name: R R Kabel Ltd.
+- code: RBLBANK.NS
+  currency: INR
+  exchange: NSE
+  name: RBL Bank Ltd.
+- code: RECLTD.NS
+  currency: INR
+  exchange: NSE
+  name: REC Ltd.
+- code: RHIM.NS
+  currency: INR
+  exchange: NSE
+  name: RHI MAGNESITA INDIA LTD.
+- code: RITES.NS
+  currency: INR
+  exchange: NSE
+  name: RITES Ltd.
+- code: RADICO.NS
+  currency: INR
+  exchange: NSE
+  name: Radico Khaitan Ltd
+- code: RVNL.NS
+  currency: INR
+  exchange: NSE
+  name: Rail Vikas Nigam Ltd.
+- code: RAILTEL.NS
+  currency: INR
+  exchange: NSE
+  name: Railtel Corporation Of India Ltd.
+- code: RAINBOW.NS
+  currency: INR
+  exchange: NSE
+  name: Rainbow Childrens Medicare Ltd.
+- code: RKFORGE.NS
+  currency: INR
+  exchange: NSE
+  name: Ramkrishna Forgings Ltd.
+- code: RCF.NS
+  currency: INR
+  exchange: NSE
+  name: Rashtriya Chemicals & Fertilizers Ltd.
+- code: REDINGTON.NS
+  currency: INR
+  exchange: NSE
+  name: Redington Ltd.
+- code: RELIANCE.NS
+  currency: INR
+  exchange: NSE
+  name: Reliance Industries Ltd.
+- code: RELINFRA.NS
+  currency: INR
+  exchange: NSE
+  name: Reliance Infrastructure Ltd.
+- code: RPOWER.NS
+  currency: INR
+  exchange: NSE
+  name: Reliance Power Ltd.
+- code: SBFC.NS
+  currency: INR
+  exchange: NSE
+  name: SBFC Finance Ltd.
+- code: SBICARD.NS
+  currency: INR
+  exchange: NSE
+  name: SBI Cards and Payment Services Ltd.
+- code: SBILIFE.NS
+  currency: INR
+  exchange: NSE
+  name: SBI Life Insurance Company Ltd.
+- code: SJVN.NS
+  currency: INR
+  exchange: NSE
+  name: SJVN Ltd.
+- code: SKFINDIA.NS
+  currency: INR
+  exchange: NSE
+  name: SKF India Ltd.
+- code: SRF.NS
+  currency: INR
+  exchange: NSE
+  name: SRF Ltd.
+- code: SAGILITY.NS
+  currency: INR
+  exchange: NSE
+  name: Sagility Ltd.
+- code: SAILIFE.NS
+  currency: INR
+  exchange: NSE
+  name: Sai Life Sciences Ltd.
+- code: SAMMAANCAP.NS
+  currency: INR
+  exchange: NSE
+  name: Sammaan Capital Ltd.
+- code: MOTHERSON.NS
+  currency: INR
+  exchange: NSE
+  name: Samvardhana Motherson International Ltd.
+- code: SAPPHIRE.NS
+  currency: INR
+  exchange: NSE
+  name: Sapphire Foods India Ltd.
+- code: SARDAEN.NS
+  currency: INR
+  exchange: NSE
+  name: Sarda Energy and Minerals Ltd.
+- code: SAREGAMA.NS
+  currency: INR
+  exchange: NSE
+  name: Saregama India Ltd
+- code: SCHAEFFLER.NS
+  currency: INR
+  exchange: NSE
+  name: Schaeffler India Ltd.
+- code: SCHNEIDER.NS
+  currency: INR
+  exchange: NSE
+  name: Schneider Electric Infrastructure Ltd.
+- code: SCI.NS
+  currency: INR
+  exchange: NSE
+  name: Shipping Corporation of India Ltd.
+- code: SHREECEM.NS
+  currency: INR
+  exchange: NSE
+  name: Shree Cement Ltd.
+- code: SHRIRAMFIN.NS
+  currency: INR
+  exchange: NSE
+  name: Shriram Finance Ltd.
+- code: SHYAMMETL.NS
+  currency: INR
+  exchange: NSE
+  name: Shyam Metalics and Energy Ltd.
+- code: ENRIN.NS
+  currency: INR
+  exchange: NSE
+  name: Siemens Energy India Ltd.
+- code: SIEMENS.NS
+  currency: INR
+  exchange: NSE
+  name: Siemens Ltd.
+- code: SIGNATURE.NS
+  currency: INR
+  exchange: NSE
+  name: Signatureglobal (India) Ltd.
+- code: SOBHA.NS
+  currency: INR
+  exchange: NSE
+  name: Sobha Ltd.
+- code: SOLARINDS.NS
+  currency: INR
+  exchange: NSE
+  name: Solar Industries India Ltd.
+- code: SONACOMS.NS
+  currency: INR
+  exchange: NSE
+  name: Sona BLW Precision Forgings Ltd.
+- code: SONATSOFTW.NS
+  currency: INR
+  exchange: NSE
+  name: Sonata Software Ltd.
+- code: STARHEALTH.NS
+  currency: INR
+  exchange: NSE
+  name: Star Health and Allied Insurance Company Ltd.
+- code: SBIN.NS
+  currency: INR
+  exchange: NSE
+  name: State Bank of India
+- code: SAIL.NS
+  currency: INR
+  exchange: NSE
+  name: Steel Authority of India Ltd.
+- code: SUMICHEM.NS
+  currency: INR
+  exchange: NSE
+  name: Sumitomo Chemical India Ltd.
+- code: SUNPHARMA.NS
+  currency: INR
+  exchange: NSE
+  name: Sun Pharmaceutical Industries Ltd.
+- code: SUNTV.NS
+  currency: INR
+  exchange: NSE
+  name: Sun TV Network Ltd.
+- code: SUNDARMFIN.NS
+  currency: INR
+  exchange: NSE
+  name: Sundaram Finance Ltd.
+- code: SUNDRMFAST.NS
+  currency: INR
+  exchange: NSE
+  name: Sundram Fasteners Ltd.
+- code: SUPREMEIND.NS
+  currency: INR
+  exchange: NSE
+  name: Supreme Industries Ltd.
+- code: SUZLON.NS
+  currency: INR
+  exchange: NSE
+  name: Suzlon Energy Ltd.
+- code: SWANCORP.NS
+  currency: INR
+  exchange: NSE
+  name: Swan Corp Ltd.
+- code: SWIGGY.NS
+  currency: INR
+  exchange: NSE
+  name: Swiggy Ltd.
+- code: SYNGENE.NS
+  currency: INR
+  exchange: NSE
+  name: Syngene International Ltd.
+- code: SYRMA.NS
+  currency: INR
+  exchange: NSE
+  name: Syrma SGS Technology Ltd.
+- code: TBOTEK.NS
+  currency: INR
+  exchange: NSE
+  name: TBO Tek Ltd.
+- code: TVSMOTOR.NS
+  currency: INR
+  exchange: NSE
+  name: TVS Motor Company Ltd.
+- code: TATACHEM.NS
+  currency: INR
+  exchange: NSE
+  name: Tata Chemicals Ltd.
+- code: TATACOMM.NS
+  currency: INR
+  exchange: NSE
+  name: Tata Communications Ltd.
+- code: TCS.NS
+  currency: INR
+  exchange: NSE
+  name: Tata Consultancy Services Ltd.
+- code: TATACONSUM.NS
+  currency: INR
+  exchange: NSE
+  name: Tata Consumer Products Ltd.
+- code: TATAELXSI.NS
+  currency: INR
+  exchange: NSE
+  name: Tata Elxsi Ltd.
+- code: TATAINVEST.NS
+  currency: INR
+  exchange: NSE
+  name: Tata Investment Corporation Ltd.
+- code: TMPV.NS
+  currency: INR
+  exchange: NSE
+  name: Tata Motors Passenger Vehicles Ltd.
+- code: TATAPOWER.NS
+  currency: INR
+  exchange: NSE
+  name: Tata Power Co. Ltd.
+- code: TATASTEEL.NS
+  currency: INR
+  exchange: NSE
+  name: Tata Steel Ltd.
+- code: TATATECH.NS
+  currency: INR
+  exchange: NSE
+  name: Tata Technologies Ltd.
+- code: TTML.NS
+  currency: INR
+  exchange: NSE
+  name: Tata Teleservices (Maharashtra) Ltd.
+- code: TECHM.NS
+  currency: INR
+  exchange: NSE
+  name: Tech Mahindra Ltd.
+- code: TECHNOE.NS
+  currency: INR
+  exchange: NSE
+  name: Techno Electric & Engineering Company Ltd.
+- code: TEJASNET.NS
+  currency: INR
+  exchange: NSE
+  name: Tejas Networks Ltd.
+- code: NIACL.NS
+  currency: INR
+  exchange: NSE
+  name: The New India Assurance Company Ltd.
+- code: RAMCOCEM.NS
+  currency: INR
+  exchange: NSE
+  name: The Ramco Cements Ltd.
+- code: THERMAX.NS
+  currency: INR
+  exchange: NSE
+  name: Thermax Ltd.
+- code: TIMKEN.NS
+  currency: INR
+  exchange: NSE
+  name: Timken India Ltd.
+- code: TITAGARH.NS
+  currency: INR
+  exchange: NSE
+  name: Titagarh Rail Systems Ltd.
+- code: TITAN.NS
+  currency: INR
+  exchange: NSE
+  name: Titan Company Ltd.
+- code: TORNTPHARM.NS
+  currency: INR
+  exchange: NSE
+  name: Torrent Pharmaceuticals Ltd.
+- code: TORNTPOWER.NS
+  currency: INR
+  exchange: NSE
+  name: Torrent Power Ltd.
+- code: TARIL.NS
+  currency: INR
+  exchange: NSE
+  name: Transformers And Rectifiers (India) Ltd.
+- code: TRENT.NS
+  currency: INR
+  exchange: NSE
+  name: Trent Ltd.
+- code: TRIDENT.NS
+  currency: INR
+  exchange: NSE
+  name: Trident Ltd.
+- code: TRIVENI.NS
+  currency: INR
+  exchange: NSE
+  name: Triveni Engineering & Industries Ltd.
+- code: TRITURBINE.NS
+  currency: INR
+  exchange: NSE
+  name: Triveni Turbine Ltd.
+- code: TIINDIA.NS
+  currency: INR
+  exchange: NSE
+  name: Tube Investments of India Ltd.
+- code: UCOBANK.NS
+  currency: INR
+  exchange: NSE
+  name: UCO Bank
+- code: UNOMINDA.NS
+  currency: INR
+  exchange: NSE
+  name: UNO Minda Ltd.
+- code: UPL.NS
+  currency: INR
+  exchange: NSE
+  name: UPL Ltd.
+- code: UTIAMC.NS
+  currency: INR
+  exchange: NSE
+  name: UTI Asset Management Company Ltd.
+- code: ULTRACEMCO.NS
+  currency: INR
+  exchange: NSE
+  name: UltraTech Cement Ltd.
+- code: UNIONBANK.NS
+  currency: INR
+  exchange: NSE
+  name: Union Bank of India
+- code: UBL.NS
+  currency: INR
+  exchange: NSE
+  name: United Breweries Ltd.
+- code: UNITDSPR.NS
+  currency: INR
+  exchange: NSE
+  name: United Spirits Ltd.
+- code: USHAMART.NS
+  currency: INR
+  exchange: NSE
+  name: Usha Martin Ltd.
+- code: VGUARD.NS
+  currency: INR
+  exchange: NSE
+  name: V-Guard Industries Ltd.
+- code: DBREALTY.NS
+  currency: INR
+  exchange: NSE
+  name: Valor Estate Ltd.
+- code: VTL.NS
+  currency: INR
+  exchange: NSE
+  name: Vardhman Textiles Ltd.
+- code: VBL.NS
+  currency: INR
+  exchange: NSE
+  name: Varun Beverages Ltd.
+- code: MANYAVAR.NS
+  currency: INR
+  exchange: NSE
+  name: Vedant Fashions Ltd.
+- code: VEDL.NS
+  currency: INR
+  exchange: NSE
+  name: Vedanta Ltd.
+- code: VENTIVE.NS
+  currency: INR
+  exchange: NSE
+  name: Ventive Hospitality Ltd.
+- code: VIJAYA.NS
+  currency: INR
+  exchange: NSE
+  name: Vijaya Diagnostic Centre Ltd.
+- code: VMM.NS
+  currency: INR
+  exchange: NSE
+  name: Vishal Mega Mart Ltd.
+- code: IDEA.NS
+  currency: INR
+  exchange: NSE
+  name: Vodafone Idea Ltd.
+- code: VOLTAS.NS
+  currency: INR
+  exchange: NSE
+  name: Voltas Ltd.
+- code: WAAREEENER.NS
+  currency: INR
+  exchange: NSE
+  name: Waaree Energies Ltd.
+- code: WELCORP.NS
+  currency: INR
+  exchange: NSE
+  name: Welspun Corp Ltd.
+- code: WELSPUNLIV.NS
+  currency: INR
+  exchange: NSE
+  name: Welspun Living Ltd.
+- code: WHIRLPOOL.NS
+  currency: INR
+  exchange: NSE
+  name: Whirlpool of India Ltd.
+- code: WIPRO.NS
+  currency: INR
+  exchange: NSE
+  name: Wipro Ltd.
+- code: WOCKPHARMA.NS
+  currency: INR
+  exchange: NSE
+  name: Wockhardt Ltd.
+- code: YESBANK.NS
+  currency: INR
+  exchange: NSE
+  name: Yes Bank Ltd.
+- code: ZFCVINDIA.NS
+  currency: INR
+  exchange: NSE
+  name: ZF Commercial Vehicle Control Systems India Ltd.
+- code: ZEEL.NS
+  currency: INR
+  exchange: NSE
+  name: Zee Entertainment Enterprises Ltd.
+- code: ZENTEC.NS
+  currency: INR
+  exchange: NSE
+  name: Zen Technologies Ltd.
+- code: ZENSARTECH.NS
+  currency: INR
+  exchange: NSE
+  name: Zensar Technolgies Ltd.
+- code: ZYDUSLIFE.NS
+  currency: INR
+  exchange: NSE
+  name: Zydus Lifesciences Ltd.
+- code: ECLERX.NS
+  currency: INR
+  exchange: NSE
+  name: eClerx Services Ltd.
