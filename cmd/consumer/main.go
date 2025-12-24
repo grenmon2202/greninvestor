@@ -27,23 +27,17 @@ func processExchange(s symbols.SymbolsStore, exchange string, y *charts.YahooCli
 		if err != nil {
 			logging.L.Warn("Failed to fetch candles", zap.String("symbol", sym.Code), zap.Error(err))
 			logging.L.Info("Skipping symbol due to error", zap.String("symbol", sym.Code))
-			time.Sleep(time.Duration(config.CANDLE_SCRAPER_SLEEP_S))
+			time.Sleep(time.Duration(config.CANDLE_SCRAPER_SLEEP_S) * time.Second)
 			failedCount++
 			continue
 		}
 
-		if err := db.InsertStockIfNotExists(sym); err != nil {
-			logging.L.Warn("Failed to insert stock", zap.String("symbol", sym.Code), zap.Error(err))
-			logging.L.Info("Skipping symbol due to error", zap.String("symbol", sym.Code))
-			time.Sleep(time.Duration(config.CANDLE_SCRAPER_SLEEP_S))
-			failedCount++
-			continue
-		}
+		candlesCleaned := charts.RemoveIncompleteLastCandle(candles, exchange)
 
-		if err := db.InsertMarketData(sym, candles); err != nil {
+		if err := db.InsertMarketData(sym, candlesCleaned); err != nil {
 			logging.L.Warn("Failed to insert market data", zap.String("symbol", sym.Code), zap.Error(err))
 			logging.L.Info("Skipping symbol due to error", zap.String("symbol", sym.Code))
-			time.Sleep(time.Duration(config.CANDLE_SCRAPER_SLEEP_S))
+			time.Sleep(time.Duration(config.CANDLE_SCRAPER_SLEEP_S) * time.Second)
 			failedCount++
 			continue
 		}
@@ -51,7 +45,7 @@ func processExchange(s symbols.SymbolsStore, exchange string, y *charts.YahooCli
 		logging.L.Info("Completed processing symbol", zap.String("symbol", sym.Code))
 		passedCount++
 
-		time.Sleep(time.Duration(config.CANDLE_SCRAPER_SLEEP_S))
+		time.Sleep(time.Duration(config.CANDLE_SCRAPER_SLEEP_S) * time.Second)
 	}
 
 	logging.L.Info("Completed processing exchange", zap.String("exchange", exchange), zap.Int("passed", passedCount), zap.Int("failed", failedCount))

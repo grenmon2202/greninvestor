@@ -24,3 +24,31 @@ CREATE TABLE IF NOT EXISTS market_data_1h (
 -- Helpful index for time-range queries per symbol
 CREATE INDEX IF NOT EXISTS idx_market_data_1h_symbol_ts
   ON market_data_1h(symbol, ts);
+
+CREATE TABLE "portfolio" (
+	"name"	TEXT NOT NULL,
+	"h_wallet"	NUMERIC NOT NULL,
+	PRIMARY KEY("name")
+)
+
+CREATE TABLE IF NOT EXISTS holdings (
+  name TEXT NOT NULL,
+  symbol          TEXT NOT NULL,
+  buy_ts         INTEGER NOT NULL,
+  entry_point REAL NOT NULL,
+  num_shares INTEGER NOT NULL,
+  quant_invested_inr REAL NOT NULL,
+  inr_usd_conv_ratio REAL,
+  
+  PRIMARY KEY (name, symbol, buy_ts),
+
+  FOREIGN KEY (name) REFERENCES portfolio(name),
+  FOREIGN KEY (symbol) REFERENCES stock(symbol)
+);
+
+CREATE INDEX IF NOT EXISTS idx_holdings_portfolio
+  ON holdings(name);
+
+CREATE INDEX IF NOT EXISTS idx_holdings_stock
+  ON holdings(symbol);
+

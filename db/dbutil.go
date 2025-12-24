@@ -2,6 +2,7 @@ package db
 
 import (
 	"database/sql"
+	"time"
 
 	"github.com/grenmon2202/greninvestor/charts"
 	"github.com/grenmon2202/greninvestor/config"
@@ -72,5 +73,76 @@ func InsertMarketData(symbol symbols.Symbol, candles []charts.Candle) error {
 	}
 
 	logging.L.Info("Inserted market data", zap.String("symbol", symbol.Code), zap.Int("count", len(candles)))
+	return nil
+}
+
+func FetchMarketData(symbolCode string, fromTs time.Time, toTs time.Time) ([]charts.Candle, error) {
+	logging.Init()
+	defer logging.L.Sync()
+
+	db, err := sql.Open("sqlite", config.DB_PATH)
+	if err != nil {
+		logging.L.Error("Failed to open database", zap.String("code", symbolCode), zap.Error(err))
+		return nil, err
+	}
+	defer db.Close()
+
+	query := `SELECT ts, o, h, l, c, v FROM ` + config.TBL_MKT_DATA + ` WHERE symbol = ? AND ts BETWEEN ? AND ? ORDER BY ts ASC`
+	rows, err := db.Query(query, symbolCode, fromTs.Unix(), toTs.Unix())
+	if err != nil {
+		logging.L.Error("Failed to query market data", zap.String("symbol", symbolCode), zap.Error(err))
+		return nil, err
+	}
+	defer rows.Close()
+
+	var candles []charts.Candle
+	for rows.Next() {
+		var ts int64
+		var o, h, l, c, v float64
+
+		if err := rows.Scan(&ts, &o, &h, &l, &c, &v); err != nil {
+			logging.L.Error("Failed to scan row", zap.String("symbol", symbolCode), zap.Error(err))
+			return nil, err
+		}
+
+		candle := charts.Candle{
+			T: time.Unix(ts, 0),
+			O: o,
+			H: h,
+			L: l,
+			C: c,
+			V: v,
+		}
+		candles = append(candles, candle)
+	}
+
+	if err := rows.Err(); err != nil {
+		logging.L.Error("Row iteration error", zap.String("symbol", symbolCode), zap.Error(err))
+		return nil, err
+	}
+
+	logging.L.Info("Fetched market data", zap.String("symbol", symbolCode), zap.Int("count", len(candles)))
+	return candles, nil
+}
+
+func CreateNewPortfolio(name string, initialWallet float32) error {
+	logging.Init()
+	defer logging.L.Sync()
+
+	db, err := sql.Open("sqlite", config.DB_PATH)
+	if err != nil {
+		logging.L.Error("Failed to open database", zap.String("portfolio", name), zap.Error(err))
+		return err
+	}
+	defer db.Close()
+
+	query := `INSERT INTO ` + config.TBL_PORTFOLIOS + ` (name, wallet) VALUES (?, ?)`
+	_, err = db.Exec(query, name, initialWallet)
+	if err != nil {
+		logging.L.Error("Failed to create portfolio", zap.String("portfolio", name), zap.Error(err))
+		return err
+	}
+
+	logging.L.Info("Created new portfolio", zap.String("portfolio", name), zap.Float32("wallet", initialWallet))
 	return nil
 }
