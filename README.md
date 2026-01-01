@@ -98,7 +98,7 @@ The system is mostly idle between runs.
 Designed to run comfortably on:
 - ~1 vCPU
 - ~512 MB – 1 GB RAM
-- < 10 GB disk
+- >= 10 GB disk
 
 ---
 
