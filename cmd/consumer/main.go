@@ -23,6 +23,14 @@ func processExchange(s symbols.SymbolsStore, exchange string, y *charts.YahooCli
 
 	for _, sym := range s.Symbols {
 		logging.L.Info("Processing symbol", zap.String("symbol", sym.Code), zap.String("exchange", exchange))
+		if err := db.InsertStockIfNotExists(sym); err != nil {
+			logging.L.Warn("Failed to upsert stock metadata", zap.String("symbol", sym.Code), zap.Error(err))
+			logging.L.Info("Skipping symbol due to error", zap.String("symbol", sym.Code))
+			time.Sleep(time.Duration(config.CANDLE_SCRAPER_SLEEP_S) * time.Second)
+			failedCount++
+			continue
+		}
+
 		candles, err := y.FetchCandles(ctx, sym.Code, config.CANDLE_RANGE, config.CANDLE_INTERVAL)
 		if err != nil {
 			logging.L.Warn("Failed to fetch candles", zap.String("symbol", sym.Code), zap.Error(err))

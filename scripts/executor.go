@@ -6,26 +6,51 @@ import (
 	"encoding/json"
 	"fmt"
 	"os/exec"
-	"strconv"
-	"strings"
 	"time"
 
 	"github.com/grenmon2202/greninvestor/charts"
 	"github.com/grenmon2202/greninvestor/config"
 )
 
-func ExecuteTrendFollowingStrategy(data []charts.Candle, mode string, symbol string) (bool, float32, error) {
-	return ExecuteScript(data, mode, symbol, config.TREND_FOLLOWING_SCRIPT_PATH, config.TREND_FOLLOWING_CONFIG_PATH)
+type StrategyDecision struct {
+	Decision   bool    `json:"decision"`
+	Confidence float32 `json:"confidence"`
+	Shares     int     `json:"shares"`
 }
 
-func ExecuteScript(data []charts.Candle, mode string, symbol string, script string, strategy_config string) (bool, float32, error) {
+func ExecuteTrendFollowingStrategy(data []charts.Candle, mode string, symbol string) (StrategyDecision, error) {
+	return ExecuteScript(data, mode, symbol, config.TREND_FOLLOWING_SCRIPT_PATH, config.TREND_FOLLOWING_CONFIG_PATH, nil)
+}
+
+func ExecuteTrendFollowingStrategyWithPortfolio(data []charts.Candle, mode string, symbol string, portfolioData any) (StrategyDecision, error) {
+	return ExecuteScript(data, mode, symbol, config.TREND_FOLLOWING_SCRIPT_PATH, config.TREND_FOLLOWING_CONFIG_PATH, portfolioData)
+}
+
+func parseStrategyDecision(mode string, raw string) (StrategyDecision, error) {
+	var decision StrategyDecision
+	if err := json.Unmarshal([]byte(raw), &decision); err != nil {
+		return StrategyDecision{}, fmt.Errorf("failed to decode strategy output: %w", err)
+	}
+
+	if mode == "buy" && decision.Decision && decision.Shares <= 0 {
+		return StrategyDecision{}, fmt.Errorf("buy decision must include positive shares, got %d", decision.Shares)
+	}
+
+	if !decision.Decision {
+		decision.Shares = 0
+	}
+
+	return decision, nil
+}
+
+func ExecuteScript(data []charts.Candle, mode string, symbol string, script string, strategy_config string, portfolioData any) (StrategyDecision, error) {
 	if mode != "buy" && mode != "sell" {
-		return false, 0, fmt.Errorf("invalid mode: %s", mode)
+		return StrategyDecision{}, fmt.Errorf("invalid mode: %s", mode)
 	}
 
 	data_stringify, err := json.Marshal(data)
 	if err != nil {
-		return false, 0, fmt.Errorf("failed to marshal candle data: %v", err)
+		return StrategyDecision{}, fmt.Errorf("failed to marshal candle data: %v", err)
 	}
 
 	ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
@@ -41,6 +66,15 @@ func ExecuteScript(data []charts.Candle, mode string, symbol string, script stri
 		"-s", symbol,
 	)
 
+	if portfolioData != nil {
+		portfolioStringify, err := json.Marshal(portfolioData)
+		if err != nil {
+			return StrategyDecision{}, fmt.Errorf("failed to marshal portfolio data: %v", err)
+		}
+
+		cmd.Args = append(cmd.Args, "-p", string(portfolioStringify))
+	}
+
 	var stdout, stderr bytes.Buffer
 
 	cmd.Stdout = &stdout
@@ -49,27 +83,17 @@ func ExecuteScript(data []charts.Candle, mode string, symbol string, script stri
 	err = cmd.Run()
 
 	if ctx.Err() == context.DeadlineExceeded {
-		return false, 0, fmt.Errorf("command timed out")
+		return StrategyDecision{}, fmt.Errorf("command timed out")
 	}
 
 	if err != nil {
-		return false, 0, fmt.Errorf("command execution failed: %v, stderr: %s", err, stderr.String())
+		return StrategyDecision{}, fmt.Errorf("command execution failed: %v, stderr: %s", err, stderr.String())
 	}
 
-	var decision bool
-	var confidence float32
-
-	parts := strings.Fields(strings.TrimSpace(stdout.String()))
-	if len(parts) != 2 {
-		return false, 0, fmt.Errorf("unexpected output format: %s", stdout.String())
-	}
-
-	decision = parts[0] == "True"
-	score, err := strconv.ParseFloat(parts[1], 32)
+	decision, err := parseStrategyDecision(mode, stdout.String())
 	if err != nil {
-		return false, 0, fmt.Errorf("failed to parse confidence score: %v", err)
+		return StrategyDecision{}, fmt.Errorf("unexpected output format: %w", err)
 	}
-	confidence = float32(score)
 
-	return decision, confidence, nil
+	return decision, nil
 }

@@ -2,3 +2,7 @@ go.sum
 *.db
 debug/
 .DS_Store
+.venv
+.tmp-go
+builds/
+__pycache__

@@ -1,6 +1,6 @@
 import argparse
-import yaml
 import json
+import yaml
 
 class TrendFollowingStrategy:
     def __init__(self, config, debug=False, symbol=None):
@@ -10,6 +10,7 @@ class TrendFollowingStrategy:
         self.CONFIDENCE_SCORE_MULTIPLIER = config["CONFIDENCE_SCORE_MULTIPLIER"]
         self.TRAILING_STOP_LOSS_PCT = config["TRAILING_STOP_LOSS_PCT"]
         self.MIN_TREND_SEPARATION = config["MIN_TREND_SEPARATION"]
+        self.MAX_CAPITAL_PCT_PER_TRADE = config["MAX_CAPITAL_PCT_PER_TRADE"]
         
         self.symbol = symbol
         self.debug = debug
@@ -115,28 +116,50 @@ class TrendFollowingStrategy:
         for candle in data:
             if 'C' not in candle or 'T' not in candle:
                 raise ValueError("Candle data must contain 'C' (close price) and 'T' (timestamp)")
-        
-    def buy(self, data):
+
+    def _compute_buy_shares(self, conf, buy_ctx):
+        wallet = buy_ctx.get("wallet")
+        latest_price = buy_ctx.get("latest_price")
+
+        if wallet is None or latest_price is None:
+            raise ValueError("Buy context must include 'wallet' and 'latest_price'")
+
+        if wallet <= 0 or latest_price <= 0:
+            return 0
+
+        confidence_ratio = max(0.05, min(conf / 10.0, 0.25))
+        target_capital = wallet * confidence_ratio
+        max_capital = wallet * self.MAX_CAPITAL_PCT_PER_TRADE
+
+        max_shares_by_cap = int(max_capital / latest_price)
+        if max_shares_by_cap <= 0:
+            return 0
+
+        raw_shares = max(1, int(target_capital / latest_price))
+        return min(raw_shares, max_shares_by_cap)
+
+    def buy(self, data, buy_ctx):
         self._validate_data(data)
         ema_cross, conf = self._ema_crossed(data)
         if ema_cross == 1:
-            return True, conf
-        
-        return False, conf
+            shares = self._compute_buy_shares(conf, buy_ctx)
+            return True, conf, shares
+
+        return False, conf, 0
         
     def sell(self, data, port_data):
         self._validate_data(data)
         if self._trigger_stop_loss(data, port_data):
-            return True, -1
+            return True, -1, 0
         
         if self._trigger_trailing_stop_loss(data, port_data):
-            return True, -1
+            return True, -1, 0
         
         ema_cross, conf = self._ema_crossed(data)
         if ema_cross == -1:
-            return True, conf
+            return True, conf, 0
         
-        return False, conf
+        return False, conf, 0
         
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Trend Following Strategy")
@@ -163,7 +186,7 @@ if __name__ == "__main__":
         "--port_data", "-p",
         type=str,
         required=False,
-        help="Input json file with portfolio data (required for sell mode)"
+        help="Input json file with portfolio data or buy context"
     )
     parser.add_argument(
         "--debug", "-d",
@@ -189,12 +212,16 @@ if __name__ == "__main__":
     data = json.loads(args.input)
     
     if args.mode == "buy":
-        buy, conf = strategy.buy(data)
-        print(f"{buy} {conf}")
+        if args.port_data is None:
+            raise ValueError("Buy context must be provided in buy mode")
+
+        buy_ctx = json.loads(args.port_data)
+        buy, conf, shares = strategy.buy(data, buy_ctx)
+        print(json.dumps({"decision": buy, "confidence": conf, "shares": shares}))
     elif args.mode == "sell":
         if args.port_data is None:
             raise ValueError("Portfolio data file must be provided in sell mode")
         
         port_data = json.loads(args.port_data)
-        sell, conf = strategy.sell(data, port_data)
-        print(f"{sell} {conf}")
+        sell, conf, shares = strategy.sell(data, port_data)
+        print(json.dumps({"decision": sell, "confidence": conf, "shares": shares}))
