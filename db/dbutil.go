@@ -2,6 +2,7 @@ package db
 
 import (
 	"database/sql"
+	"errors"
 	"strings"
 	"time"
 
@@ -44,15 +45,28 @@ type RunRecord struct {
 }
 
 type PortfolioHistoryRecord struct {
-	RunTs           int64
-	Portfolio       string
-	Wallet          float64
-	HoldingsValue   float64
-	PortfolioValue  float64
-	CumulativePnL   float64
-	PnLFromLastRun  float64
-	HoldingsCount   int
-	TotalShares     int
+	RunTs          int64
+	Portfolio      string
+	Wallet         float64
+	HoldingsValue  float64
+	PortfolioValue float64
+	CumulativePnL  float64
+	PnLFromLastRun float64
+	HoldingsCount  int
+	TotalShares    int
+}
+
+type HoldingView struct {
+	Portfolio        string
+	Symbol           string
+	BuyTs            int64
+	EntryPoint       float64
+	NumShares        int
+	QuantInvestedINR float64
+	InrUsdConvRatio  float64
+	LatestPrice      float64
+	HoldingValue     float64
+	UnrealizedPnL    float64
 }
 
 func EnsureRunsTable() error {
@@ -706,4 +720,252 @@ func InsertPortfolioHistory(record PortfolioHistoryRecord) error {
 	}
 
 	return nil
+}
+
+func FetchLatestRun() (RunRecord, error) {
+	logging.Init()
+	defer logging.L.Sync()
+
+	db, err := sql.Open("sqlite", config.DB_PATH)
+	if err != nil {
+		return RunRecord{}, err
+	}
+	defer db.Close()
+
+	query := `SELECT run_ts, started_at, finished_at, status, processed_exchanges, closed_exchanges, exchanges_total, exchanges_closed,
+		portfolios_loaded, symbols_processed, holdings_checked, buy_signals, sell_signals, buy_orders, sell_orders,
+		shares_bought, shares_sold, requested_buy_shares, amount_spent, amount_earned, realized_pnl, skipped_no_data,
+		skipped_stale_data, skipped_invalid_buy_size, skipped_unaffordable_buy, strategy_errors
+		FROM ` + config.TBL_RUNS + ` ORDER BY run_ts DESC LIMIT 1`
+
+	row := db.QueryRow(query)
+	var record RunRecord
+	err = row.Scan(
+		&record.RunTs, &record.StartedAt, &record.FinishedAt, &record.Status, &record.ProcessedExchanges,
+		&record.ClosedExchanges, &record.ExchangesTotal, &record.ExchangesClosed, &record.PortfoliosLoaded,
+		&record.SymbolsProcessed, &record.HoldingsChecked, &record.BuySignals, &record.SellSignals,
+		&record.BuyOrders, &record.SellOrders, &record.SharesBought, &record.SharesSold,
+		&record.RequestedBuyShares, &record.AmountSpent, &record.AmountEarned, &record.RealizedPnL,
+		&record.SkippedNoData, &record.SkippedStaleData, &record.SkippedInvalidBuySize,
+		&record.SkippedUnaffordableBuy, &record.StrategyErrors,
+	)
+	if err != nil {
+		return RunRecord{}, err
+	}
+
+	return record, nil
+}
+
+func FetchRunHistory(limit int) ([]RunRecord, error) {
+	logging.Init()
+	defer logging.L.Sync()
+
+	if limit <= 0 {
+		limit = 100
+	}
+
+	db, err := sql.Open("sqlite", config.DB_PATH)
+	if err != nil {
+		return nil, err
+	}
+	defer db.Close()
+
+	query := `SELECT run_ts, started_at, finished_at, status, processed_exchanges, closed_exchanges, exchanges_total, exchanges_closed,
+		portfolios_loaded, symbols_processed, holdings_checked, buy_signals, sell_signals, buy_orders, sell_orders,
+		shares_bought, shares_sold, requested_buy_shares, amount_spent, amount_earned, realized_pnl, skipped_no_data,
+		skipped_stale_data, skipped_invalid_buy_size, skipped_unaffordable_buy, strategy_errors
+		FROM ` + config.TBL_RUNS + ` ORDER BY run_ts DESC LIMIT ?`
+	rows, err := db.Query(query, limit)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	records := make([]RunRecord, 0)
+	for rows.Next() {
+		var record RunRecord
+		if err := rows.Scan(
+			&record.RunTs, &record.StartedAt, &record.FinishedAt, &record.Status, &record.ProcessedExchanges,
+			&record.ClosedExchanges, &record.ExchangesTotal, &record.ExchangesClosed, &record.PortfoliosLoaded,
+			&record.SymbolsProcessed, &record.HoldingsChecked, &record.BuySignals, &record.SellSignals,
+			&record.BuyOrders, &record.SellOrders, &record.SharesBought, &record.SharesSold,
+			&record.RequestedBuyShares, &record.AmountSpent, &record.AmountEarned, &record.RealizedPnL,
+			&record.SkippedNoData, &record.SkippedStaleData, &record.SkippedInvalidBuySize,
+			&record.SkippedUnaffordableBuy, &record.StrategyErrors,
+		); err != nil {
+			return nil, err
+		}
+		records = append(records, record)
+	}
+
+	return records, rows.Err()
+}
+
+func FetchLatestPortfolioHistory(portfolio string) (PortfolioHistoryRecord, error) {
+	logging.Init()
+	defer logging.L.Sync()
+
+	db, err := sql.Open("sqlite", config.DB_PATH)
+	if err != nil {
+		return PortfolioHistoryRecord{}, err
+	}
+	defer db.Close()
+
+	query := `SELECT run_ts, portfolio, wallet, holdings_value, portfolio_value, cumulative_pnl, pnl_from_last_run, holdings_count, total_shares
+		FROM ` + config.TBL_PORTFOLIO_HISTORY + ` WHERE portfolio = ? ORDER BY run_ts DESC LIMIT 1`
+	row := db.QueryRow(query, portfolio)
+
+	var record PortfolioHistoryRecord
+	err = row.Scan(
+		&record.RunTs, &record.Portfolio, &record.Wallet, &record.HoldingsValue, &record.PortfolioValue,
+		&record.CumulativePnL, &record.PnLFromLastRun, &record.HoldingsCount, &record.TotalShares,
+	)
+	if err != nil {
+		return PortfolioHistoryRecord{}, err
+	}
+
+	return record, nil
+}
+
+func FetchPortfolioHistory(portfolio string, limit int, fromTs int64, toTs int64) ([]PortfolioHistoryRecord, error) {
+	logging.Init()
+	defer logging.L.Sync()
+
+	if limit <= 0 {
+		limit = 200
+	}
+
+	db, err := sql.Open("sqlite", config.DB_PATH)
+	if err != nil {
+		return nil, err
+	}
+	defer db.Close()
+
+	query := `SELECT run_ts, portfolio, wallet, holdings_value, portfolio_value, cumulative_pnl, pnl_from_last_run, holdings_count, total_shares
+		FROM ` + config.TBL_PORTFOLIO_HISTORY + ` WHERE portfolio = ?`
+	args := []any{portfolio}
+	if fromTs > 0 {
+		query += ` AND run_ts >= ?`
+		args = append(args, fromTs)
+	}
+	if toTs > 0 {
+		query += ` AND run_ts <= ?`
+		args = append(args, toTs)
+	}
+	query += ` ORDER BY run_ts DESC LIMIT ?`
+	args = append(args, limit)
+
+	rows, err := db.Query(query, args...)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	records := make([]PortfolioHistoryRecord, 0)
+	for rows.Next() {
+		var record PortfolioHistoryRecord
+		if err := rows.Scan(
+			&record.RunTs, &record.Portfolio, &record.Wallet, &record.HoldingsValue, &record.PortfolioValue,
+			&record.CumulativePnL, &record.PnLFromLastRun, &record.HoldingsCount, &record.TotalShares,
+		); err != nil {
+			return nil, err
+		}
+		records = append(records, record)
+	}
+
+	return records, rows.Err()
+}
+
+func FetchTrades(portfolio string, limit int, fromTs int64, toTs int64) ([]map[string]any, error) {
+	logging.Init()
+	defer logging.L.Sync()
+
+	if limit <= 0 {
+		limit = 200
+	}
+
+	db, err := sql.Open("sqlite", config.DB_PATH)
+	if err != nil {
+		return nil, err
+	}
+	defer db.Close()
+
+	query := `SELECT symbol, side, ts, price, shares, pnl FROM ` + config.TBL_TRADES + ` WHERE portfolio = ?`
+	args := []any{portfolio}
+	if fromTs > 0 {
+		query += ` AND ts >= ?`
+		args = append(args, fromTs)
+	}
+	if toTs > 0 {
+		query += ` AND ts <= ?`
+		args = append(args, toTs)
+	}
+	query += ` ORDER BY ts DESC LIMIT ?`
+	args = append(args, limit)
+
+	rows, err := db.Query(query, args...)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	trades := make([]map[string]any, 0)
+	for rows.Next() {
+		var symbol, side string
+		var ts int64
+		var price float64
+		var shares int
+		var pnl sql.NullFloat64
+		if err := rows.Scan(&symbol, &side, &ts, &price, &shares, &pnl); err != nil {
+			return nil, err
+		}
+		trade := map[string]any{
+			"symbol": symbol,
+			"side":   side,
+			"ts":     ts,
+			"price":  price,
+			"shares": shares,
+			"pnl":    nil,
+		}
+		if pnl.Valid {
+			trade["pnl"] = pnl.Float64
+		}
+		trades = append(trades, trade)
+	}
+
+	return trades, rows.Err()
+}
+
+func FetchEnrichedHoldings(portfolio string, asOf time.Time) ([]HoldingView, error) {
+	holdings, err := FetchHoldings(portfolio)
+	if err != nil {
+		return nil, err
+	}
+
+	out := make([]HoldingView, 0, len(holdings))
+	for _, holding := range holdings {
+		latestPrice, err := FetchLatestMarketPrice(holding.Symbol, asOf)
+		if err != nil {
+			if errors.Is(err, sql.ErrNoRows) {
+				latestPrice = holding.EntryPoint
+			} else {
+				return nil, err
+			}
+		}
+		holdingValue := latestPrice * float64(holding.NumShares)
+		out = append(out, HoldingView{
+			Portfolio:        holding.Name,
+			Symbol:           holding.Symbol,
+			BuyTs:            holding.BuyTs,
+			EntryPoint:       holding.EntryPoint,
+			NumShares:        holding.NumShares,
+			QuantInvestedINR: holding.QuantInvestedINR,
+			InrUsdConvRatio:  holding.InrUsdConvRatio,
+			LatestPrice:      latestPrice,
+			HoldingValue:     holdingValue,
+			UnrealizedPnL:    holdingValue - holding.QuantInvestedINR,
+		})
+	}
+
+	return out, nil
 }
